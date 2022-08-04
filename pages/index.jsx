@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -6,21 +7,36 @@ export default function Home() {
       <Head>
         <title>Home - Mobile App Development Dublin Ireland</title>
       </Head>
-      <main className="w-screen h-screen bg-yellow-400 grid place-items-center">
-        <div className="cont max-w-lg text-center  text-white">
-          <h1 className="text-white font-semibold text-5xl">We're Tapadoo</h1>
-          <h1 className="text-white font-semibold text-5xl">
-            We make mobile apps
-          </h1>
-          <p>
-            Let's see if we can help. What would you like to know more about?
-          </p>
-          <div className="buttons flex justify-between">
-            <button>Tapadoo</button>
-            <button>Apps</button>
+      <div
+        className="hero min-h-screen"
+        style={{ backgroundImage: 'url(/main-background.png)' }}
+      >
+        <div className="hero-overlay bg-opacity-20"></div>
+        <div className="hero-content text-center text-neutral-content">
+          <div className="max-w-3xl text-white">
+            <h1 className="mb-5 text-6xl font-bold">
+              We’re Tapadoo.
+              <br />
+              We make mobile apps.
+            </h1>
+            <p className="mb-5 text-xl opacity-60">
+              Let's see if we can help. What would you like to know more about?
+            </p>
+            <div className="flex flex-col md:flex-row md:justify-evenly items-center">
+              <Link href="/tapadoo">
+                <button className="btn rounded-3xl min-w-[250px] btn-primary w-1/2 md:w-1/3 text-black bg-white my-4 capitalize border-none">
+                  Tapadoo
+                </button>
+              </Link>
+              <Link href="/apps">
+                <button className="btn rounded-3xl min-w-[250px] btn-primary w-1/2 md:w-1/3 text-black bg-white my-4 capitalize border-none">
+                  Apps
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
-      </main>
+      </div>
     </>
   );
 }
