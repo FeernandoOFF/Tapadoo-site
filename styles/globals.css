@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .app-container {
+    @apply p-4 max-w-7xl mx-auto;
+  }
+  .app-title {
+    @apply text-4xl lg:text-6xl font-bold text-neutral;
+  }
+}
+
+.hiring-card-primary {
+  box-shadow: 0px 128.846px 103.077px rgba(174, 70, 0, 0.08),
+    0px 53.8288px 43.0631px rgba(174, 70, 0, 0.107828),
+    0px 28.7795px 23.0236px rgba(174, 70, 0, 0.0894161),
+    0px 16.1335px 12.9068px rgba(174, 70, 0, 0.075),
+    0px 8.5684px 6.85472px rgba(174, 70, 0, 0.0605839),
+    0px 3.5655px 2.8524px rgba(174, 70, 0, 0.0421718);
+}
+
+.hiring-card-secondary {
+  box-shadow: 0px 128.846px 103.077px rgba(54, 150, 204, 0.08),
+    0px 53.8288px 43.0631px rgba(54, 150, 204, 0.107828),
+    0px 28.7795px 23.0236px rgba(54, 150, 204, 0.0894161),
+    0px 16.1335px 12.9068px rgba(54, 150, 204, 0.075),
+    0px 8.5684px 6.85472px rgba(54, 150, 204, 0.0605839),
+    0px 3.5655px 2.8524px rgba(54, 150, 204, 0.0421718);
+}
