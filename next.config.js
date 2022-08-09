@@ -1,7 +1,10 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  assetPrefix: isProd ? 'https://feernandooff.github.io/Tapadoo-site' : '',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
