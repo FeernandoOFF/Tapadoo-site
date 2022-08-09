@@ -6,7 +6,7 @@ function Work() {
     <>
       <img
         src="/img/work-tiles.png"
-        className=" max-w-[650px] w-full my-[10vh] md:my-0 absolute right-0 top-[5vh] lg:top-[20vh]"
+        className=" max-w-[600px] w-full my-[10vh] md:my-0 absolute right-0 top-[8vh] lg:top-[20vh]"
       />
       <div className="hero min-h-[80vh] mt-[20vh] md:mt-0">
         <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">

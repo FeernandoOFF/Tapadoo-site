@@ -9,7 +9,15 @@ const team = [
   },
   {
     label: 'Eddie Martin',
-    charge: 'Senior Project Manager',
+    charge: 'The cyclist ',
+  },
+  {
+    label: 'John Keyes',
+    charge: 'The code master',
+  },
+  {
+    label: 'Erencan Cabuk',
+    charge: 'The push up king',
   },
 ];
 
@@ -46,10 +54,10 @@ function About() {
       </section>
       <section className="team app-container  mt-[10vh]">
         <h1 className="text-4xl lg:text-6xl font-bold text-neutral">Team</h1>
-        <div className=" team-grid mt-[5vh] flex justify-between flex-wrap w-full  mx-auto ">
+        <div className=" team-grid mt-[5vh] grid grid-cols-2 md:grid-cols-4 gap-y-8  mx-auto ">
           {team.map((member) => (
             <div key={member.label} className="text-center text-sm my-4">
-              <div className="circle w-[120px] h-[120px] mx-auto bg-gray-300 rounded-full"></div>
+              <div className="circle w-[120px] h-[120px] lg:w-[200px] lg:h-[200px] mx-auto bg-gray-300 rounded-full"></div>
               <p className="font-semibold">{member.label} </p>
               <p>{member.charge} </p>
               <p>{member.twitter} </p>

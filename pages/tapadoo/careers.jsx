@@ -3,7 +3,7 @@ import { Layout } from '../../components/layout/Layout';
 
 function Careers() {
   return (
-    <div className="hero min-h-screen app-container place-items-start md:place-items-center">
+    <div className="hero min-h-screen app-container place-items-start md:place-items-center relative">
       <div className="hero-content flex-col justify-center items-center lg:flex-row-reverse lg:justify-between w-full">
         <div className="flex w-full flex-col items-center max-w-[300px] lg:flex-row  lg:justify-between lg:w-1/2 lg:max-w-[800px]">
           <div className="bg-primary p-4 my-4 w-full  rounded-2xl flex flex-col text-white lg:max-w-[230px] lg:min-h-[250px]  lg:min-w-[200px] justify-between shadow-lg hiring-card-primary">
