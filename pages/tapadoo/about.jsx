@@ -1,5 +1,7 @@
+const aboutHero = require('../../public/img/about-hero.png');
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
+// ../../public/img/assets
 
 const team = [
   { label: 'Dermot', charge: 'CEO & Founder', twitter: '@dermdaly' },
@@ -27,7 +29,7 @@ function About() {
       <section className="hero min-h-[80vh] text-neutral ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="/img/about-hero.png"
+            src={aboutHero}
             className=" max-w-[550px] w-full my-[10vh] md:my-0"
           />
           <div>

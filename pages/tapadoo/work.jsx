@@ -1,3 +1,4 @@
+const WorkTiles = require('img/work-tiles.png');
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 
@@ -5,7 +6,7 @@ function Work() {
   return (
     <>
       <img
-        src="/img/work-tiles.png"
+        src={WorkTiles}
         className=" max-w-[600px] w-full my-[10vh] md:my-0 absolute right-0 top-[8vh] lg:top-[20vh]"
       />
       <div className="hero min-h-[80vh] mt-[20vh] md:mt-0">

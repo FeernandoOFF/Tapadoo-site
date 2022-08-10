@@ -1,3 +1,4 @@
+const locationSvg = require('../../public/img/assets/location-svg.svg');
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 
@@ -5,7 +6,7 @@ export default function Localization() {
   return (
     <div className="hero min-h-[90vh] relative">
       <img
-        src="/img/assets/location-svg.svg"
+        src={locationSvg}
         alt="map svg"
         className="absolute  h-screen md:bottom-[-25vh]  right-0 z-[-1]"
       />

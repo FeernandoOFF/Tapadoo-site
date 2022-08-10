@@ -11,7 +11,7 @@ export default function Home() {
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url(${JSON.stringify(backgroundImg.default.src)})`,
+          backgroundImage: `url(${backgroundImg.default.src})`,
         }}
       >
         <div className="hero-overlay bg-opacity-20"></div>

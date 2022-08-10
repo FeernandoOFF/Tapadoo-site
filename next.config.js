@@ -1,10 +1,9 @@
-const isProd = process.env.NODE_ENV === 'production';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: isProd ? '/Tapadoo-site' : '/',
+  basePath: '/Tapadoo-site',
+  assetPrefix: '/Tapadoo-site',
 };
 
 module.exports = nextConfig;

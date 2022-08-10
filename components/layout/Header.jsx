@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
+const tapadooLargeLogo = require('../../public/img/logos/tapadoo-large-logo.png');
+
 const links = [
   {
     label: 'Tapadoo',
@@ -56,7 +58,7 @@ function Header() {
           <div className="navbar-start">
             <Link href="/">
               <img
-                src="/img/logos/tapadoo-large-logo.png"
+                src={tapadooLargeLogo}
                 alt="Tapadoo logo"
                 className="w-full  max-w-[120px] cursor-pointer"
               />
