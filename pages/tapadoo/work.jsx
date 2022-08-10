@@ -7,7 +7,7 @@ function Work() {
   return (
     <>
       <img
-        src={WorkTiles}
+        src={WorkTiles.default.src}
         className=" max-w-[600px] w-full my-[10vh] md:my-0 absolute right-0 top-[8vh] lg:top-[20vh]"
       />
       <div className="hero min-h-[80vh] mt-[20vh] md:mt-0">

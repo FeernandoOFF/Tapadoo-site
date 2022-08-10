@@ -6,7 +6,7 @@ export default function Localization() {
   return (
     <div className="hero min-h-[90vh] relative">
       <img
-        src={locationSvg}
+        src={locationSvg.default.src}
         alt="map svg"
         className="absolute  h-screen md:bottom-[-25vh]  right-0 z-[-1]"
       />

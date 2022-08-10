@@ -29,7 +29,7 @@ function About() {
       <section className="hero min-h-[80vh] text-neutral ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src={aboutHero}
+            src={aboutHero.default.src}
             className=" max-w-[550px] w-full my-[10vh] md:my-0"
           />
           <div>

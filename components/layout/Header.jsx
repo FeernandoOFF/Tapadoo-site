@@ -58,7 +58,7 @@ function Header() {
           <div className="navbar-start">
             <Link href="/">
               <img
-                src={tapadooLargeLogo}
+                src={tapadooLargeLogo.default.src}
                 alt="Tapadoo logo"
                 className="w-full  max-w-[120px] cursor-pointer"
               />
