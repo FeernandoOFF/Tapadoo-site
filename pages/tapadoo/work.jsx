@@ -1,4 +1,5 @@
-const WorkTiles = require('img/work-tiles.png');
+const WorkTiles = require('../../public/img/work-tiles.png');
+
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 
