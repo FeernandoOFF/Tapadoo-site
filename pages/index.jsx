@@ -1,3 +1,4 @@
+const backgroundImg = require('../public/main-background.png');
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -9,7 +10,9 @@ export default function Home() {
       </Head>
       <div
         className="hero min-h-screen"
-        style={{ backgroundImage: 'url(/main-background.png)' }}
+        style={{
+          backgroundImage: `url(${JSON.stringify(backgroundImg.default.src)})`,
+        }}
       >
         <div className="hero-overlay bg-opacity-20"></div>
         <div className="hero-content text-center text-neutral-content">

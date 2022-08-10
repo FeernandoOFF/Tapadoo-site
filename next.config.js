@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  assetPrefix: isProd ? 'https://feernandooff.github.io/Tapadoo-site' : '',
+  basePath: isProd ? '/Tapadoo-site' : '/',
 };
 
 module.exports = nextConfig;
