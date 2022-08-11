@@ -1,0 +1,115 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/Tapadoo-site/_next/static/css/c58b35cd2b2c87c6.css" as="style"/><link rel="stylesheet" href="/Tapadoo-site/_next/static/css/c58b35cd2b2c87c6.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/Tapadoo-site/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/Tapadoo-site/_next/static/chunks/webpack-461e027a94344cdf.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/framework-715a76d8b0695da7.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/main-baed5792d4d394cf.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/pages/_app-c68c249bf95195e7.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/996-f765e51b6a74c60f.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/pages/blog/%5Bslug%5D-ad92a10315036107.js" defer=""></script><script src="/Tapadoo-site/_next/static/J1Xr_ZAWum7uWHnxPWPeq/_buildManifest.js" defer=""></script><script src="/Tapadoo-site/_next/static/J1Xr_ZAWum7uWHnxPWPeq/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div><p>Native App Development or Cross Platform?</p><p>
+# **Native App Development**
+
+At Tapadoo, we commit to delivering only the best mobile apps. That’s why we are sanctimonious advocates of native app development for iOS and Android. We believe this is the best approach for product design and development. 
+
+You could say we are intuitive about these things. As early as 2011, our founder [Dermot](https://www.linkedin.com/in/dermdaly/), was skeptical about HTML5 for rendering user interface elements on mobile. He was right! You can read his original blog post [here](https://tapadoo.wpengine.com/2011/no-html5-is-not-the-answer/).
+
+We read recently how Airbnb and Udacity dropped React Native in favour of native app development. Both Airbnb and Udacity’s engineering departments released posts on why they reverted to native app development. I’d highly recommend a read of both; [React Native at Airbnb](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c) &amp; [React Native at Udacity](https://engineering.udacity.com/react-native-a-retrospective-from-the-mobile-engineering-team-at-udacity-89975d6a8102). This confirmed our belief in native app development even more.
+
+## **An opportunity to try new things**
+
+That said, we are always up for a challenge. So when the opportunity came along to develop a cross platform app using React Native, we jumped at the chance.
+
+We had the pleasure of working with a large multinational car manufacturer on an app for their marketing campaign.
+
+The app has had over 50,000 downloads since we delivered the product. We’ve learnt some things from the process that we’d like to share with you.
+
+## **Cross platform development**
+
+Native app development is where you write a specific codebase for Android or iOS. Whereas, cross platform development only involves writing a single codebase which can be deployed on both platforms.
+
+### **Why choose cross platform?**
+
+Maintaining a single codebase lowers code duplication, and in theory, reduces iteration cycles.
+
+Cross platform frameworks like React Native, Xamarin, Flutter and Ionic endeavour to accomplish this. Write once, test on both platforms, and deploy.
+
+Sounds too good to be true, right?
+
+In some cases it is.
+
+### **Who uses cross platform frameworks?**
+
+[Facebook, Instagram, Pinterest, Skype and Tesla](https://facebook.github.io/react-native/showcase.html) all used React Native to produce their flagship apps. Facebook created ReactJS in 2011, a widely used web development framework. In 2013 React Native began at an internal hackaton. It built on ReactJS and was open sourced on Github in 2015.
+
+Google&#x27;s Flutter is gaining ground in the cross platform world. It’s used by [Alibaba, and their own AdWords app](https://flutter.io/showcase/). While it’s still in alpha, some promising work is surfacing. I recommend checking out the beautiful [Reflectly app.](http://reflect.ly/)
+
+## **Why is native app development better?**
+
+The development world is far from ideal. Developing for any platform comes with a host of potential issues. Unknowns exist around every corner. 
+
+Once you deploy a non-native development tool, you position yourself even further away from the operating system. This may be a compromise some products can live with but it&#x27;s not a decision that should be taken lightly.
+
+Apps are becoming more complex. They are leveraging the latest hardware and technologies to increase immersion. Every year operating systems are revised and updated. iOS 12 has recently been released and Android P will be available soon. There are a host of new features and APIs with these updates. Apps need to utilise the latest operating systems features in order to succeed.
+
+Cross platform frameworks are in a perpetual game of cat and mouse to keep up.
+
+### _Performance_
+
+Often cited as a major drawback of any cross platform framework. React Native suffers poor performance at times, such as frame dropping. Poor performance will compromise the user experience significantly.
+
+Developers often blame the performance issues on the framework, when it is actually often improper use of the APIs.
+
+But with the lack of documentation and continuously changing APIs within React Native, it&#x27;s no wonder that it can lead to substandard app design.
+
+### _Third party dependency_
+
+You relinquish granular control to a third party when you utilise a cross development platform. This can lead to instability and penalise maintainability. 
+
+One of our core principles at Tapadoo is delivering stable mobile applications. Maintaining a low to zero crash rate is what we strive for.
+
+We include analytics and crash reporting within our apps. This allows us to maintain low crash rates and provides valuable data on app usage. To include these SDKs in React Native, we needed an additional dependency to allow invocation via the shared codebase.
+
+We have been able to achieve a crash free rate of above 98% on our cross platform project. However, a significant number of crashes are occurring from within the React Native SDK. We&#x27;ve continuously had to update to the latest version of React Native to combat this. This hasn&#x27;t always improved the crash rate but it has increased maintenance effort.
+
+### _Platform specific styling_
+
+Both Android and iOS maintain individual style guidelines. Android&#x27;s material design is largely based on the physical world, with views having elevations and cast shadows. The iOS human interface guidelines lean towards flat design. Both give each platform a distinct but familiar user experience.
+
+Cross platform user interface components often feel unnatural. They do not conform to either standard as default.
+
+Platform specific styles can and should be added where possible to ensure an experience in keeping with operating system norms.
+
+### _Developer support_
+
+Not all development environments are created equally, but some are above the curve. It is these types of environments that help developers do their job efficiently.
+
+A colossal amount of work has been undertaken to build tools to help developers wade through the trenches. Both iOS and Android have well established tools, designed with ease of use in mind. Tools developers use everyday but often take for granted. Tools like layout previews, debugger breakpoints, code injection and documentation lookup, which are in-built to Android Studio and Xcode.
+
+There are often multiple tools for developing with a cross platform framework, but their standards leave much to be desired. For React Native, some promising IDEs do exist, such as [Deco](https://www.decoide.org/), [Nuclide](https://nuclide.io/) and [Visual Studio Code](https://code.visualstudio.com/).
+
+## **Where is cross platform useful?**
+
+There are certainly use cases for cross platform development. Cross platform can potentially reduce development time for prototyping or producing a minimal viable product. Provided an experienced developer is undertaking the task.
+
+## **Hybrid apps**
+
+The React Native app we built utilised sensor and location data. This was a challenge for pure React Native. It meant we had to implement some native code on both Android and iOS to fulfil these requirements.
+
+We now have a hybrid codebase. Cross platform, mixed with native code. Between 5% to 10% of the codebase is native. User interface code is shared, with minor exceptions to platform specific styling. The reuse of code was kept high. This is a massive benefit and the core motivation for choosing a cross platform framework.
+
+## **Conclusion**
+
+After this experience, our view remains. It is more challenging to achieve a quality product using a cross platform framework.  Quality, maintainability, user experience, and the ability to innovate, all deteriorate. No matter how fast these frameworks mature, it&#x27;s hard to see them contend with native app development.
+
+Should you go cross platform?
+
+Maybe.
+
+This is a decision that will likely stay with you for the lifecycle of your product. There are merits, which are especially attractive from a business perspective. But the core technology you&#x27;re building may suffer in the long term. 
+
+As a company who are responsible for producing high quality apps, native is the right strategy. We pride ourselves on pushing the boundaries of app development, anything that limits this, is out of the equation.
+
+Unsure yourself? 
+
+We are experts in mobile app development, and are always free for a chat.
+
+If you&#x27;d like to chat to us about your app development project you can contact us [here](https://tapadoo.wpengine.com/contact/).
+
+Kevin Murphy
+
+Senior Android Developer
+
+Photo by [Hal Gatewood](https://unsplash.com/photos/WcYeiHMexR0?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/phones?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+<!-- --> </p></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"post":{"title":"Native App Development or Cross Platform?","date":"2018-10-22","content":"\n# **Native App Development**\n\nAt Tapadoo, we commit to delivering only the best mobile apps. That’s why we are sanctimonious advocates of native app development for iOS and Android. We believe this is the best approach for product design and development. \n\nYou could say we are intuitive about these things. As early as 2011, our founder [Dermot](https://www.linkedin.com/in/dermdaly/), was skeptical about HTML5 for rendering user interface elements on mobile. He was right! You can read his original blog post [here](https://tapadoo.wpengine.com/2011/no-html5-is-not-the-answer/).\n\nWe read recently how Airbnb and Udacity dropped React Native in favour of native app development. Both Airbnb and Udacity’s engineering departments released posts on why they reverted to native app development. I’d highly recommend a read of both; [React Native at Airbnb](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c) \u0026 [React Native at Udacity](https://engineering.udacity.com/react-native-a-retrospective-from-the-mobile-engineering-team-at-udacity-89975d6a8102). This confirmed our belief in native app development even more.\n\n## **An opportunity to try new things**\n\nThat said, we are always up for a challenge. So when the opportunity came along to develop a cross platform app using React Native, we jumped at the chance.\n\nWe had the pleasure of working with a large multinational car manufacturer on an app for their marketing campaign.\n\nThe app has had over 50,000 downloads since we delivered the product. We’ve learnt some things from the process that we’d like to share with you.\n\n## **Cross platform development**\n\nNative app development is where you write a specific codebase for Android or iOS. Whereas, cross platform development only involves writing a single codebase which can be deployed on both platforms.\n\n### **Why choose cross platform?**\n\nMaintaining a single codebase lowers code duplication, and in theory, reduces iteration cycles.\n\nCross platform frameworks like React Native, Xamarin, Flutter and Ionic endeavour to accomplish this. Write once, test on both platforms, and deploy.\n\nSounds too good to be true, right?\n\nIn some cases it is.\n\n### **Who uses cross platform frameworks?**\n\n[Facebook, Instagram, Pinterest, Skype and Tesla](https://facebook.github.io/react-native/showcase.html) all used React Native to produce their flagship apps. Facebook created ReactJS in 2011, a widely used web development framework. In 2013 React Native began at an internal hackaton. It built on ReactJS and was open sourced on Github in 2015.\n\nGoogle's Flutter is gaining ground in the cross platform world. It’s used by [Alibaba, and their own AdWords app](https://flutter.io/showcase/). While it’s still in alpha, some promising work is surfacing. I recommend checking out the beautiful [Reflectly app.](http://reflect.ly/)\n\n## **Why is native app development better?**\n\nThe development world is far from ideal. Developing for any platform comes with a host of potential issues. Unknowns exist around every corner. \n\nOnce you deploy a non-native development tool, you position yourself even further away from the operating system. This may be a compromise some products can live with but it's not a decision that should be taken lightly.\n\nApps are becoming more complex. They are leveraging the latest hardware and technologies to increase immersion. Every year operating systems are revised and updated. iOS 12 has recently been released and Android P will be available soon. There are a host of new features and APIs with these updates. Apps need to utilise the latest operating systems features in order to succeed.\n\nCross platform frameworks are in a perpetual game of cat and mouse to keep up.\n\n### _Performance_\n\nOften cited as a major drawback of any cross platform framework. React Native suffers poor performance at times, such as frame dropping. Poor performance will compromise the user experience significantly.\n\nDevelopers often blame the performance issues on the framework, when it is actually often improper use of the APIs.\n\nBut with the lack of documentation and continuously changing APIs within React Native, it's no wonder that it can lead to substandard app design.\n\n### _Third party dependency_\n\nYou relinquish granular control to a third party when you utilise a cross development platform. This can lead to instability and penalise maintainability. \n\nOne of our core principles at Tapadoo is delivering stable mobile applications. Maintaining a low to zero crash rate is what we strive for.\n\nWe include analytics and crash reporting within our apps. This allows us to maintain low crash rates and provides valuable data on app usage. To include these SDKs in React Native, we needed an additional dependency to allow invocation via the shared codebase.\n\nWe have been able to achieve a crash free rate of above 98% on our cross platform project. However, a significant number of crashes are occurring from within the React Native SDK. We've continuously had to update to the latest version of React Native to combat this. This hasn't always improved the crash rate but it has increased maintenance effort.\n\n### _Platform specific styling_\n\nBoth Android and iOS maintain individual style guidelines. Android's material design is largely based on the physical world, with views having elevations and cast shadows. The iOS human interface guidelines lean towards flat design. Both give each platform a distinct but familiar user experience.\n\nCross platform user interface components often feel unnatural. They do not conform to either standard as default.\n\nPlatform specific styles can and should be added where possible to ensure an experience in keeping with operating system norms.\n\n### _Developer support_\n\nNot all development environments are created equally, but some are above the curve. It is these types of environments that help developers do their job efficiently.\n\nA colossal amount of work has been undertaken to build tools to help developers wade through the trenches. Both iOS and Android have well established tools, designed with ease of use in mind. Tools developers use everyday but often take for granted. Tools like layout previews, debugger breakpoints, code injection and documentation lookup, which are in-built to Android Studio and Xcode.\n\nThere are often multiple tools for developing with a cross platform framework, but their standards leave much to be desired. For React Native, some promising IDEs do exist, such as [Deco](https://www.decoide.org/), [Nuclide](https://nuclide.io/) and [Visual Studio Code](https://code.visualstudio.com/).\n\n## **Where is cross platform useful?**\n\nThere are certainly use cases for cross platform development. Cross platform can potentially reduce development time for prototyping or producing a minimal viable product. Provided an experienced developer is undertaking the task.\n\n## **Hybrid apps**\n\nThe React Native app we built utilised sensor and location data. This was a challenge for pure React Native. It meant we had to implement some native code on both Android and iOS to fulfil these requirements.\n\nWe now have a hybrid codebase. Cross platform, mixed with native code. Between 5% to 10% of the codebase is native. User interface code is shared, with minor exceptions to platform specific styling. The reuse of code was kept high. This is a massive benefit and the core motivation for choosing a cross platform framework.\n\n## **Conclusion**\n\nAfter this experience, our view remains. It is more challenging to achieve a quality product using a cross platform framework.  Quality, maintainability, user experience, and the ability to innovate, all deteriorate. No matter how fast these frameworks mature, it's hard to see them contend with native app development.\n\nShould you go cross platform?\n\nMaybe.\n\nThis is a decision that will likely stay with you for the lifecycle of your product. There are merits, which are especially attractive from a business perspective. But the core technology you're building may suffer in the long term. \n\nAs a company who are responsible for producing high quality apps, native is the right strategy. We pride ourselves on pushing the boundaries of app development, anything that limits this, is out of the equation.\n\nUnsure yourself? \n\nWe are experts in mobile app development, and are always free for a chat.\n\nIf you'd like to chat to us about your app development project you can contact us [here](https://tapadoo.wpengine.com/contact/).\n\nKevin Murphy\n\nSenior Android Developer\n\nPhoto by [Hal Gatewood](https://unsplash.com/photos/WcYeiHMexR0?utm_source=unsplash\u0026utm_medium=referral\u0026utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/phones?utm_source=unsplash\u0026utm_medium=referral\u0026utm_content=creditCopyText)\n"}},"__N_SSG":true},"page":"/blog/[slug]","query":{"slug":"native-app-development-or-cross-platform"},"buildId":"J1Xr_ZAWum7uWHnxPWPeq","assetPrefix":"/Tapadoo-site","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body></html>

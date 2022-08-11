@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/Tapadoo-site/_next/static/css/c58b35cd2b2c87c6.css" as="style"/><link rel="stylesheet" href="/Tapadoo-site/_next/static/css/c58b35cd2b2c87c6.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/Tapadoo-site/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/Tapadoo-site/_next/static/chunks/webpack-461e027a94344cdf.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/framework-715a76d8b0695da7.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/main-baed5792d4d394cf.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/pages/_app-c68c249bf95195e7.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/996-f765e51b6a74c60f.js" defer=""></script><script src="/Tapadoo-site/_next/static/chunks/pages/blog/%5Bslug%5D-ad92a10315036107.js" defer=""></script><script src="/Tapadoo-site/_next/static/J1Xr_ZAWum7uWHnxPWPeq/_buildManifest.js" defer=""></script><script src="/Tapadoo-site/_next/static/J1Xr_ZAWum7uWHnxPWPeq/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div><p>&quot;...and we&#x27;d like to allow users to message each other&quot;</p><p>
+Here&#x27;s a common request we find in an early stage client conversation:
+
+&quot;..and we&#x27;d like to allow users to message each other&quot;
+
+If ever there was a statement that hides complexity it&#x27;s this one.
+
+Messaging sounds simple right?
+
+User A send a Message to User B. User B reads the message. Piece of cake.
+
+Implementation? Straight forward. You have a users table, and a messages table, with a foreign key to show who was the sender and who was the recipient. You can store messages in there. Send a push to the User B when you insert into this table. Simple!
+
+In fact, it&#x27;s often done as example code - Here&#x27;s [firebase&#x27;s](https://codelabs.developers.google.com/codelabs/firebase-android/#0), [free code camps&#x27;s](https://www.freecodecamp.org/news/building-a-chat-application-with-mean-stack-637254d1136d/), [getstream&#x27;s](https://getstream.io/chat/react-chat/tutorial/) and [Ray Wenderlich&#x27;s](https://www.raywenderlich.com/5359-firebase-tutorial-real-time-chat). To name but a few.
+
+But here&#x27;s the thing, when people think of messaging, their frame of reference is iMessage, WhatsApp or the plethora of other chat apps out there. And though you might not notice it, these are chock full of features. Features that people expect.
+
+![App Messaging. Illustration of hands typing a message on a smartphone](images/sendMessagesBlogPostFinal-01-1.png)
+
+When I see &quot;we&#x27;d like to allow users to message each other&quot;, here&#x27;s 10 questions that reel off, each leading to further features:
+
+- Do you want to know if the message is successfully delivered?
+- Do you want to know if the message has been read?
+- Would you like to send photos?
+- When the recipient receives a photo, should tapping on it go full screen?
+- What about videos?
+- Do you want group chat?
+- So, we&#x27;ll need the concept of chat admins, add/edit/remove people from the chat?
+- Probably group chat titles?
+- Do you want to show unread counts?
+- Will users need avatars?
+
+This list could go on, but typically all of the above is just expected.
+
+This is before you get into the _responsibility_ of running a messaging system. Your server better be robust. It better be scalable.
+
+How are you going to handle harassment? (If you provide a message service someone **will** be abusive to someone else on it). Now we better consider a block/report feature. (And you&#x27;re going to need a process for dealing with someone who has reported something).
+
+The chats may need to be encrypted; you shouldn&#x27;t have access. If you do, you may need to prepare your business processes for dealing with enquiries from law-enforcement.
+
+And after all of this, be prepared for people to leave your messaging system quickly. If you app isn&#x27;t primarily a messaging app, once a real connection is made through your service, people will naturally migrate to where they do the bulk of their messaging - Whastapp/iMessage.
+
+So, before considering messaging as a feature, you may want to consider what messaging actually entails.
+<!-- --> </p></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"post":{"title":"\"...and we'd like to allow users to message each other\"","date":"2019-11-11","content":"\nHere's a common request we find in an early stage client conversation:\n\n\"..and we'd like to allow users to message each other\"\n\nIf ever there was a statement that hides complexity it's this one.\n\nMessaging sounds simple right?\n\nUser A send a Message to User B. User B reads the message. Piece of cake.\n\nImplementation? Straight forward. You have a users table, and a messages table, with a foreign key to show who was the sender and who was the recipient. You can store messages in there. Send a push to the User B when you insert into this table. Simple!\n\nIn fact, it's often done as example code - Here's [firebase's](https://codelabs.developers.google.com/codelabs/firebase-android/#0), [free code camps's](https://www.freecodecamp.org/news/building-a-chat-application-with-mean-stack-637254d1136d/), [getstream's](https://getstream.io/chat/react-chat/tutorial/) and [Ray Wenderlich's](https://www.raywenderlich.com/5359-firebase-tutorial-real-time-chat). To name but a few.\n\nBut here's the thing, when people think of messaging, their frame of reference is iMessage, WhatsApp or the plethora of other chat apps out there. And though you might not notice it, these are chock full of features. Features that people expect.\n\n![App Messaging. Illustration of hands typing a message on a smartphone](images/sendMessagesBlogPostFinal-01-1.png)\n\nWhen I see \"we'd like to allow users to message each other\", here's 10 questions that reel off, each leading to further features:\n\n- Do you want to know if the message is successfully delivered?\n- Do you want to know if the message has been read?\n- Would you like to send photos?\n- When the recipient receives a photo, should tapping on it go full screen?\n- What about videos?\n- Do you want group chat?\n- So, we'll need the concept of chat admins, add/edit/remove people from the chat?\n- Probably group chat titles?\n- Do you want to show unread counts?\n- Will users need avatars?\n\nThis list could go on, but typically all of the above is just expected.\n\nThis is before you get into the _responsibility_ of running a messaging system. Your server better be robust. It better be scalable.\n\nHow are you going to handle harassment? (If you provide a message service someone **will** be abusive to someone else on it). Now we better consider a block/report feature. (And you're going to need a process for dealing with someone who has reported something).\n\nThe chats may need to be encrypted; you shouldn't have access. If you do, you may need to prepare your business processes for dealing with enquiries from law-enforcement.\n\nAnd after all of this, be prepared for people to leave your messaging system quickly. If you app isn't primarily a messaging app, once a real connection is made through your service, people will naturally migrate to where they do the bulk of their messaging - Whastapp/iMessage.\n\nSo, before considering messaging as a feature, you may want to consider what messaging actually entails.\n"}},"__N_SSG":true},"page":"/blog/[slug]","query":{"slug":"and-wed-like-to-allow-users-to-message-each-other"},"buildId":"J1Xr_ZAWum7uWHnxPWPeq","assetPrefix":"/Tapadoo-site","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body></html>
