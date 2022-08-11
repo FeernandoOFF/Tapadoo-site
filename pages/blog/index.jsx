@@ -1,64 +1,10 @@
+import matter from 'gray-matter';
+import Link from 'next/link';
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
+import { getFileData, getPostsFiles } from '../../utils/posts';
 
-const posts = [
-  {
-    id: 1,
-    title: 'Important Post',
-    highlight: true,
-    date: '12-mar-2022',
-    slug: 'imp-post',
-    extract:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...',
-  },
-  {
-    id: 2,
-    title: 'Important Post',
-    highlight: true,
-    date: '12-mar-2022',
-    slug: 'imp-post',
-    extract:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...',
-  },
-  {
-    id: 3,
-    title: 'Important Post',
-    highlight: true,
-    date: '12-mar-2022',
-    slug: 'imp-post',
-    extract:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...',
-  },
-  {
-    id: 4,
-    title: 'Important Post',
-    highlight: true,
-    date: '12-mar-2022',
-    slug: 'imp-post',
-    extract:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...',
-  },
-  {
-    id: 5,
-    title: 'Important Post',
-    highlight: true,
-    date: '12-mar-2022',
-    slug: 'imp-post',
-    extract:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...',
-  },
-  {
-    id: 6,
-    title: 'Important Post',
-    highlight: true,
-    date: '12-mar-2022',
-    slug: 'imp-post',
-    extract:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...',
-  },
-];
-
-function Blog() {
+function Blog({ posts }) {
   return (
     <div className="app-container">
       <h2 className="app-title">Blog</h2>
@@ -73,36 +19,68 @@ function Blog() {
         </div>
       </div>
       <div className="post-grid flex flex-wrap  justify-between">
-        {posts.map((post) => (
-          <div
-            key={post.id}
-            className="w-full shadow-xl rounded-lg  my-[2vh] lg:max-w-[350px] md:max-w-[300px]"
-          >
-            <div className="w-full">
-              <img
-                src="https://placeimg.com/400/200/arch"
-                alt=""
-                className="w-full rounded-t-lg"
-              />
-            </div>
-            <div className="content p-6">
-              <h2 className="app-title text-2xl">{post.title} </h2>
-              <p className="my-4 font-light opacity-70">
-                {post.extract.length > 100
-                  ? post.extract.slice(0, 110)
-                  : post.extract}{' '}
-              </p>
-              <div className="flex justify-between w-full">
-                <p>{post.date} </p>
-                <p className="font-semibold text-neutral ">Read More</p>
+        {posts.map((post, i) => {
+          if (!post) return;
+          return (
+            <Link key={i} href={`/blog/${post.slug}`}>
+              <div className="w-full shadow-xl rounded-lg  my-[2vh] lg:max-w-[350px] md:max-w-[300px]">
+                <div className="w-full">
+                  <img
+                    src="https://placeimg.com/400/200/arch"
+                    alt=""
+                    className="w-full rounded-t-lg"
+                  />
+                </div>
+                <div className="content p-6">
+                  <h2 className="app-title text-2xl">{post?.title} </h2>
+                  <div className="flex justify-between w-full">
+                    <p>{post?.date} </p>
+                    <p className="font-semibold text-neutral ">Read More</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        ))}
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
 }
+
+export const getStaticProps = async (ctx) => {
+  // Get posts within the 'pots' folder
+  const postsNames = getPostsFiles();
+
+  // Get metadata from each post
+  const posts = postsNames.map((filename) => {
+    try {
+      const fullMarkdown = getFileData(filename);
+
+      const {
+        data: { title, date, categories },
+      } = matter(fullMarkdown);
+
+      if (!title || !date) return null;
+      return {
+        title,
+        date,
+        slug: filename.replace('.md', ''),
+        categories: categories ? categories : null,
+      };
+    } catch (e) {
+      console.error(e);
+      return null;
+    }
+  });
+
+  console.log(posts);
+
+  return {
+    props: {
+      posts,
+    },
+  };
+};
 
 Blog.getLayout = (page) => <Layout title="Blog | Tapadoo "> {page} </Layout>;
 export default Blog;
