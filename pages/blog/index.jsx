@@ -73,8 +73,6 @@ export const getStaticProps = async (ctx) => {
     }
   });
 
-  console.log(posts);
-
   return {
     props: {
       posts,

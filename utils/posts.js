@@ -1,11 +1,21 @@
 import fs from 'fs';
 import path from 'path';
 export function getPostsFiles() {
-  const postsNames = fs.readdirSync(path.join('posts'));
-  return postsNames;
+  try {
+    const postsNames = fs.readdirSync(path.join('posts'));
+    return postsNames;
+  } catch (e) {
+    console.error(e);
+    return null;
+  }
 }
 
 export function getFileData(filename) {
-  const fullMarkdown = fs.readFileSync(path.join('posts', filename), 'utf-8');
-  return fullMarkdown;
+  try {
+    const fullMarkdown = fs.readFileSync(path.join('posts', filename), 'utf-8');
+    return fullMarkdown;
+  } catch (e) {
+    console.error(e);
+    return null;
+  }
 }
