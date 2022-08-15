@@ -25,11 +25,13 @@ function Blog({ posts }) {
             <Link key={i} href={`/blog/${post.slug}`}>
               <div className="w-full shadow-xl rounded-lg  my-[2vh] lg:max-w-[350px] md:max-w-[300px]">
                 <div className="w-full">
-                  <img
-                    src="https://placeimg.com/400/200/arch"
-                    alt=""
-                    className="w-full rounded-t-lg"
-                  />
+                  {post.postImage && (
+                    <img
+                      src={post.postImage}
+                      alt=""
+                      className="w-full rounded-t-lg"
+                    />
+                  )}
                 </div>
                 <div className="content p-6">
                   <h2 className="app-title text-2xl">{post?.title} </h2>
@@ -57,13 +59,14 @@ export const getStaticProps = async (ctx) => {
       const fullMarkdown = getFileData(filename);
 
       const {
-        data: { title, date, categories },
+        data: { title, date, categories, postImage },
       } = matter(fullMarkdown);
 
       if (!title || !date) return null;
       return {
         title,
         date,
+        postImage: postImage ? postImage : null,
         slug: filename.replace('.md', ''),
         categories: categories ? categories : null,
       };

@@ -39,7 +39,6 @@ export const getStaticProps = async ({ params: { slug } }) => {
       content,
     } = matter(getFileData(slug + '.md'));
 
-    console.log(extra);
     return {
       props: {
         post: {
