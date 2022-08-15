@@ -8,7 +8,7 @@ function Blog({ posts }) {
   return (
     <div className="app-container">
       <h2 className="app-title">Blog</h2>
-      <div className="w-full shadow-xl rounded-lg p-8 my-[5vh]">
+      <div className="w-full shadow-xl rounded-lg p-8 my-[5vh] md:flex gap-4">
         <div className="md:w-1/2">
           <h2 className="app-title text-2xl">{posts[0].title} </h2>
           <p className="my-4 font-light opacity-70">{posts[0].extract} </p>
@@ -17,13 +17,16 @@ function Blog({ posts }) {
             <p className="font-semibold text-neutral ">Read More</p>
           </div>
         </div>
+        <div className="md:w-1/2">
+          <img src={posts[0].postImage} alt="" className="rounded-md" />
+        </div>
       </div>
       <div className="post-grid flex flex-wrap  justify-between">
         {posts.map((post, i) => {
           if (!post) return;
           return (
             <Link key={i} href={`/blog/${post.slug}`}>
-              <div className="w-full shadow-xl rounded-lg  my-[2vh] lg:max-w-[350px] md:max-w-[300px]">
+              <div className="w-full shadow-xl rounded-lg  my-[2vh] lg:max-w-[350px] md:max-w-[300px] cursor-pointer">
                 <div className="w-full">
                   {post.postImage && (
                     <img

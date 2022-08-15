@@ -1,4 +1,5 @@
 const aboutHero = require('../../public/img/about-hero.png');
+import Link from 'next/link';
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 // ../../public/img/assets
@@ -48,9 +49,11 @@ function About() {
             <p className="my-4 font-medium">
               Are we your next development partner?
             </p>
-            <button className="px-4 py-2 rounded-3xl btn-primary text-white mx-auto">
-              Tell us about your project
-            </button>
+            <Link href="/tapadoo/contact">
+              <button className="px-4 py-2 rounded-3xl btn-primary text-white mx-auto">
+                Tell us about your project
+              </button>
+            </Link>
           </div>
         </div>
       </section>
