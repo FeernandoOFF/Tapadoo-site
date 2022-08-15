@@ -1,8 +1,8 @@
 ---
-title: "3 Best Mobile App A/B Testing Tools"
-date: "2020-09-07"
-categories: 
-  - "marketing"
+title: '3 Best Mobile App A/B Testing Tools'
+date: '2020-09-07'
+categories:
+  - 'marketing'
 ---
 
 We spoke about the best practices in mobile app A/B testing in our [last post](https://tapadoo.com/best-practices-for-mobile-app-a-b-testing/). Here we cover three of the best mobile app A/B testing tools. These tools allow you to run experiments that improve the design of your app while increasing conversion rates. By running these tests you improve the overall experience of your app while making a positive impact on conversion. Using the right tool allows you to test your hypotheses within your app with accuracy and confidence.

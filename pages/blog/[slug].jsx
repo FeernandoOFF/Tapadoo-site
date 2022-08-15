@@ -6,6 +6,7 @@ import { getFileData, getPostsFiles } from '../../utils/posts';
 function BlogPost({ post }) {
   return (
     <div>
+      <img src={post.postImage} alt="" />
       <p>{post.title}</p>
       <p>{post.content} </p>
     </div>
@@ -34,7 +35,7 @@ export const getStaticPaths = async (ctx) => {
 export const getStaticProps = async ({ params: { slug } }) => {
   try {
     const {
-      data: { title, date },
+      data: { title, date, ...extra },
       content,
     } = matter(getFileData(slug + '.md'));
     return {
@@ -43,10 +44,12 @@ export const getStaticProps = async ({ params: { slug } }) => {
           title,
           date,
           content,
+          ...extra,
         },
       },
     };
   } catch (e) {
+    // Error
     console.error(e);
     return {
       props: {
