@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2017/07/igor-ovsyannykov-219666-resized.jpg.webp
 title: "8 Reasons why \"Uber for Tradespeople\" is not a good app idea"
 date: "2017-07-19"
 ---

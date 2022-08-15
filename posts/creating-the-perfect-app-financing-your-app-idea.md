@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/02/josh-appel-NeTPASr-bmQ-unsplash-scaled.jpg.webp
 title: "Creating the Perfect App – Financing Your App Idea"
 date: "2020-04-06"
 categories: 

@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/10/superapp-banner-mobile.jpg.webp
 title: "The Rise of the Super App"
 date: "2020-12-14"
 categories: 

@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/william-iven-19844-unsplash.jpg.webp
 title: "5 Ways to Use Social Media to Promote Your App"
 date: "2019-06-10"
 categories: 

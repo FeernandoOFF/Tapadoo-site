@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2017/07/daria-nepriakhina-99257-resized.jpg.webp
 title: "About Our Medical Apps"
 date: "2017-07-13"
 ---

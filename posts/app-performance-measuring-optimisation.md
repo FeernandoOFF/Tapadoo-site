@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2018/08/Untitled-design.png.webp
 title: "App Performance; Measuring & Optimisation"
 date: "2018-11-05"
 categories: 

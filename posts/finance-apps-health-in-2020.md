@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/10/Finance-Apps-Health-in-2020-2.png.webp
 title: "Finance Apps' Health in 2020"
 date: "2020-11-30"
 categories: 

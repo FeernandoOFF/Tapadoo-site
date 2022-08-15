@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2018/07/rodion-kutsaev-184298-unsplash.jpg.webp
 title: "Digital Transformation & Consumer Engagement through Mobile"
 date: "2020-05-21"
 categories: 

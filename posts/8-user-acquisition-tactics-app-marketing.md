@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/02/general_1.png.webp
 title: "8 User Acquisition Tactics for Mobile App Marketing"
 date: "2019-03-11"
 categories: 

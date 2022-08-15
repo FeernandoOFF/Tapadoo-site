@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/09/googleAnalyticsBlogPost-01.png.webp
 title: "Beginners Guide to Google Analytics for Firebase"
 date: "2020-02-24"
 categories: 

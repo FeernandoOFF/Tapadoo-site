@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/09/31458-52626-000-3x2-Siri-Shortcuts-iOS-13-xl.jpg.webp
 title: "An Adventure with Siri Shortcuts"
 date: "2020-10-19"
 categories: 

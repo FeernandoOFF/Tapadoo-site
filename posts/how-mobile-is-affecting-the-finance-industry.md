@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/06/Black-and-White-Photo-Shoes-Twitter-Post-2.png.webp
 title: "How Mobile and Finance Apps are Effecting the Finance Industry"
 date: "2020-06-22"
 categories: 

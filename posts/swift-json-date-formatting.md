@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/apple-black-and-white-black-and-white-169573.jpg.webp
 title: "Swift JSON Date Formatting"
 date: "2019-07-29"
 categories: 

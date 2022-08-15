@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2016/05/Google-IO-banner.png.webp
 title: "My Thoughts on I/O No. 9"
 date: "2016-05-27"
 ---

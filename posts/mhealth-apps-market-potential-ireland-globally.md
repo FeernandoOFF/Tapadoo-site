@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/blogPostMhealthApp03-01-01.png.webp
 title: "mHealth Apps Market Potential; Ireland and Globally"
 date: "2019-09-02"
 categories: 

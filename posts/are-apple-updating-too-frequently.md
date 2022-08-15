@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2015/01/iOS-Update.jpg.webp
 title: "Are Apple updating too frequently?"
 date: "2015-01-06"
 ---

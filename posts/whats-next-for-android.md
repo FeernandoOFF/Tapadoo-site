@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2014/07/image.jpg.webp
 title: "What's next for Android."
 date: "2014-07-26"
 categories: 

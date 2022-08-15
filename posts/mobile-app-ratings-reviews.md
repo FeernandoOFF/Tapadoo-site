@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/blogpPostHowImportantAreRatings-01.png.webp
 title: "How important are mobile app ratings & reviews?"
 date: "2019-09-16"
 categories: 

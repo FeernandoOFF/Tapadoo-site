@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2014/09/76676872_8312c76522_o.jpg.webp
 title: "U2 were the absolute right band for Apple to give away an album"
 date: "2014-09-11"
 ---

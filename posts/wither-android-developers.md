@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2015/05/6180104944_73e0a291aa_o.jpg.webp
 title: "Whither Android Developers?"
 date: "2015-05-27"
 ---

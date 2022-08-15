@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/08/microinteractionsblogpost.png.webp
 title: "Why Microinteractions are Important Tools For Building Great UX"
 date: "2019-10-14"
 categories: 

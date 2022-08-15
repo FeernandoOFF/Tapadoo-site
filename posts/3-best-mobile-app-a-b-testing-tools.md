@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/A_B-Testing-Tools.png.webp
 title: '3 Best Mobile App A/B Testing Tools'
 date: '2020-09-07'
 categories:

@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2018/10/hal-gatewood-484498-unsplash.jpg.webp
 title: "Native App Development or Cross Platform?"
 date: "2018-10-22"
 categories: 

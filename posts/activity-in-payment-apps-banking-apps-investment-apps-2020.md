@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/11/Add-a-subheading.png.webp
 title: "Activity in Payment Apps, Banking Apps & Investment Apps 2020"
 date: "2020-12-07"
 categories: 

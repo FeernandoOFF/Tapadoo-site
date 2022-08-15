@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2018/09/BLOGBannerBG.png.webp
 title: "Focused Engagement through UX Design Strategy"
 date: "2018-11-12"
 categories: 

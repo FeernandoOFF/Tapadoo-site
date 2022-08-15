@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2018/08/rawpixel-626040-unsplash.jpg.webp
 title: "4 Reasons for an app take over project"
 date: "2019-01-21"
 categories: 

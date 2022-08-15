@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/04/Untitled-design.png.webp
 title: "3 Mobile Marketing App Analytics Tools for 2020"
 date: "2020-07-06"
 categories: 

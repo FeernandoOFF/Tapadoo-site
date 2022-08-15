@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/Untitled-design-6.png.webp
 title: "Tapadoo named a 'Top Wearables App Developer' for Wearable Technology 2019"
 date: "2019-06-24"
 categories: 

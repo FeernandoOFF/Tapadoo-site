@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2018/10/alexandre-godreau-524782-unsplash.jpg.webp
 title: "iOS and Android Design Differences & Why They Matter"
 date: "2018-11-19"
 categories: 

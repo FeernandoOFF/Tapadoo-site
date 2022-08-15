@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/02/qa_tapadoo_blog_banner-01.jpg.webp
 title: "Mobile App Quality Assurance Process Infographic"
 date: "2019-05-06"
 categories: 

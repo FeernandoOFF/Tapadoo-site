@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/02/austin-distel-744oGeqpxPQ-unsplash-scaled.jpg.webp
 title: "How To Decide If Your Business Needs A Mobile App"
 date: "2020-03-09"
 ---

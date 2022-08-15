@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/02/general_-9.png.webp
 title: "6 Brand Advocate tactics in mobile app marketing"
 date: "2019-04-15"
 categories: 

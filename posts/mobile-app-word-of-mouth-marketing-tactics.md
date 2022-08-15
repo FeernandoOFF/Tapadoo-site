@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/blogPost5-01.png.webp
 title: "3 Word of mouth marketing tactics for your mobile app"
 date: "2019-08-19"
 categories: 

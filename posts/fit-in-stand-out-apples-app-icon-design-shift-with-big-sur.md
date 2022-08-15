@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/Screenshot-2020-07-06-10.59.20.png.webp
 title: "Fit In, Stand Out. Apple’s App Icon Design Shift with Big Sur"
 date: "2020-08-10"
 categories: 

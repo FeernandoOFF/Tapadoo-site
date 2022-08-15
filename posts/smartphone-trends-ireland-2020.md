@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/07/analysis-3782319_1920.jpg.webp
 title: "Smartphone Trends Ireland 2020"
 date: "2020-07-20"
 categories: 

@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2017/12/pexels-photo-390394.jpeg.webp
 title: "Learning a New Skill"
 date: "2017-11-20"
 ---

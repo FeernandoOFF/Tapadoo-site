@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/02/general_3.png.webp
 title: "6 User Retention Tactics in Mobile App Marketing"
 date: "2019-04-08"
 categories: 

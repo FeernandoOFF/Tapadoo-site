@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/02/white-ipad-38271-scaled.jpg.webp
 title: "Creating the Perfect App – Guaranteeing Success"
 date: "2020-05-18"
 categories: 

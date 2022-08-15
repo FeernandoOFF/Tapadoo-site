@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/08/infographicHookModelBlogpostImages-02.png.webp
 title: "Want to develop a habit-forming​ app? Try the Hook Model or 3x3 Rule"
 date: "2019-09-30"
 categories: 

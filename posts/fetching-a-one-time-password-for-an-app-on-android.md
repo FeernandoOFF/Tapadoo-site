@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/10/androidOTPblogPost-01.png.webp
 title: "Fetching a one-time password for an app on Android"
 date: "2020-01-20"
 categories: 

@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2016/11/IMG_3605.jpg.webp
 title: "Running an App Development Agency"
 date: "2016-11-09"
 ---

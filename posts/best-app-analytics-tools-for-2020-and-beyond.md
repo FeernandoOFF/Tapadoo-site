@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/10/bestInAppAnalyticsToolsfor2020V2-01-1.png.webp
 title: "Best App Analytics Tools for 2020 and Beyond"
 date: "2019-10-28"
 categories: 

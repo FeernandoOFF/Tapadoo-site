@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/05/BLOGBannerBG-1024x399-1.png.webp
 title: "A Description of our Discovery Phase Workshop"
 date: "2020-05-05"
 categories: 

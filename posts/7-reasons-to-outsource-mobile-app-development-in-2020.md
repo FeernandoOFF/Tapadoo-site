@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/03/7-Reasons-to-outsource-app-development-in-2020-scaled.jpg.webp
 title: "7 Reasons to outsource mobile app development in 2020"
 date: "2020-06-15"
 categories: 

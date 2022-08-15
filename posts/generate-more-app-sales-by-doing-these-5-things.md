@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/10/Generate-More-App-Sales.png.webp
 title: "Generate more app sales by doing these 5 things"
 date: "2020-11-09"
 categories: 

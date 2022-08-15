@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/Untitled-design-2.png.webp
 title: "Best Practices for Mobile App A/B Testing"
 date: "2020-08-24"
 categories: 

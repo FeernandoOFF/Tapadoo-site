@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/01/Hello-2.png.webp
 title: "Mobile App Marketing - Planning"
 date: "2019-03-04"
 categories: 

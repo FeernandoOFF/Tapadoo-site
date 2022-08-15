@@ -38,6 +38,8 @@ export const getStaticProps = async ({ params: { slug } }) => {
       data: { title, date, ...extra },
       content,
     } = matter(getFileData(slug + '.md'));
+
+    console.log(extra);
     return {
       props: {
         post: {

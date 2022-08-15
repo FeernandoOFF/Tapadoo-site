@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Untitled_Artwork-2.jpg.webp
 title: "From college to the real world: 12 lessons learned working as a mobile app UI/UX intern"
 date: "2019-05-13"
 categories: 

@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/Apple_mac_pro_new_display_final_cut_screen_060319.jpg.webp
 title: "Was announcing a $999 stand a mis-step? I think so"
 date: "2019-06-06"
 ---

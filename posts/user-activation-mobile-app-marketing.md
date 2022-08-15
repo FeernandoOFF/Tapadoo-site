@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/02/general_-11.png.webp
 title: "3 User Activation Rules in Mobile App Marketing"
 date: "2019-03-18"
 categories: 

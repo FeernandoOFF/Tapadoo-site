@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/blogPostAppleHealth.png.webp
 title: "What Apple’s ResearchKit brings to Clinical Trials"
 date: "2019-10-07"
 categories: 

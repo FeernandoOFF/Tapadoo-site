@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/05/How-apps-are-playing-a-part-in-COVID-19.jpg.webp
 title: "How apps are playing their part in COVID-19"
 date: "2020-06-01"
 categories: 

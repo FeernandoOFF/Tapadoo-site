@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/blur-display-electronics-174938.jpg.webp
 title: "Onboarding Best Practice; the Do's and Don'ts of Onboarding"
 date: "2019-06-03"
 categories: 

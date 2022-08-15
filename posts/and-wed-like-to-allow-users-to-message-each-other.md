@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/09/sendMessagesBlogPostFinal-02.png.webp
 title: "\"...and we'd like to allow users to message each other\""
 date: "2019-11-11"
 categories: 

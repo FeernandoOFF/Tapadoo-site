@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/04/Apple_google-partner-on-covid-19-contact-tracing-technology_04102020.jpg.webp
 title: "Is Contact Tracing for Covid-19 viable?"
 date: "2020-04-11"
 ---

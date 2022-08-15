@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2018/10/WASM-2.png.webp
 title: "WASM; The future of the web and how it will affect the app market"
 date: "2018-12-03"
 categories: 

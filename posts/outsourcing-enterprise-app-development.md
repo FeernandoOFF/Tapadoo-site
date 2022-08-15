@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/03/architecture-blur-bridge-266044.jpg.webp
 title: "6 things every CIO must know before outsourcing their enterprise app development"
 date: "2019-04-29"
 categories: 

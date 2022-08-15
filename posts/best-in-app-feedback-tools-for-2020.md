@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/Improve-your-Apps-User-Experience-3.png.webp
 title: "Best In-App Feedback Tools for 2020"
 date: "2020-09-28"
 categories: 

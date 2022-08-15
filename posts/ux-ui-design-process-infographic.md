@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/blogPostDesignInfo-01.png.webp
 title: "UX/UI Design Process Infographic"
 date: "2019-09-09"
 categories: 

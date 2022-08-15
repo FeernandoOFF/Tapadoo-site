@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/08/val-vesa-ihFWKicceNk-unsplash.jpg.webp
 title: "Tapadoo earns GoodFirms recognition for its Mobile App Development Services"
 date: "2019-08-06"
 categories: 

@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/05/portrait-of-woman-photographing-with-smart-phone-248021.jpg.webp
 title: "The State of Mobile in 2020 and How Gen Z is set to take over"
 date: "2020-06-08"
 categories: 

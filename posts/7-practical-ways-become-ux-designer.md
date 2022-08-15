@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2016/01/The-Office-32.jpg.webp
 title: "UX Design: 7 practical ways to become a UX designer"
 date: "2019-02-18"
 categories: 

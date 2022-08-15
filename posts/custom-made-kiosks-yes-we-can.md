@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/IMG_7670.png.webp
 title: "Custom made Kiosks? Yes we can."
 date: "2014-06-02"
 ---

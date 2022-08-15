@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/07/daniel-korpai-bOKIptPzdPk-unsplash-scaled.jpg.webp
 title: "Useful Resources for Mobile App Design"
 date: "2020-07-13"
 categories: 

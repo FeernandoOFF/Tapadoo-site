@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/09/prosConsMedicalApps-01.png.webp
 title: "Pros and Cons of mHealth Mobile Apps"
 date: "2019-11-04"
 categories: 

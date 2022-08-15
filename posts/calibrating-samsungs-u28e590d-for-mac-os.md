@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/11/img-samsung-monitor.jpg.webp
 title: "Calibrating Samsung's U28E590D for Mac OS"
 date: "2019-11-26"
 ---

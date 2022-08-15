@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2017/07/mydublinbusmain.jpeg.webp
 title: "The Bus App for the rest of Us - Now Free"
 date: "2017-07-26"
 ---

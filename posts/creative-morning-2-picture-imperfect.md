@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2015/06/2015-06-08-12.04.55.jpg.webp
 title: "Creative Morning #2: Picture Imperfect"
 date: "2015-07-03"
 categories: 

@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/02/emily-morter-8xAA0f9yQnE-unsplash-scaled.jpg.webp
 title: "Creating the Perfect App – Where to Start"
 date: "2020-03-30"
 categories: 

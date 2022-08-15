@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/Improve-your-Apps-User-Experience-2.png.webp
 title: "6 Ways to Improve your Apps User Experience"
 date: "2020-09-14"
 categories: 

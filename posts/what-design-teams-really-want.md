@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2017/06/Website_header_illustration.jpg.webp
 title: "What design teams really want"
 date: "2017-06-28"
 categories: 

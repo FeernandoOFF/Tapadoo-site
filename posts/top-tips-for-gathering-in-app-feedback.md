@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/microinteractionsblogpost-1024x451-1.png.webp
 title: "Top Tips for Gathering In-App Feedback"
 date: "2020-09-21"
 categories: 

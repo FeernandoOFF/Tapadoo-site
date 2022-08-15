@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/02/abstract_3.png.webp
 title: "Animating Custom CALayer Properties in Swift - And What To Check For When They Aren’t Working"
 date: "2019-02-05"
 categories: 

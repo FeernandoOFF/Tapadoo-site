@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2017/12/colored-pencils-upside-down-with-room-cropped.png.webp
 title: "Trying New Things"
 date: "2017-11-09"
 ---

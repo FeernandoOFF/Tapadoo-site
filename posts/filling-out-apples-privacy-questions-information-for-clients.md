@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2021/02/matthew-henry-fPxOowbR6ls-unsplash-scaled.jpg.webp
 title: "Filling out Apple's Privacy Questions - Information for Clients"
 date: "2021-02-12"
 ---

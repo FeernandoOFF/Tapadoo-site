@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2018/07/tapadoo_background_linkedin.png.webp
 title: "\"Apple ID does not have permission to access iTunes Connect\""
 date: "2009-03-16"
 categories: 

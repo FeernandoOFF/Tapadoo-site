@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/05/blogPost6-01.png.webp
 title: "4 ways to use a word of mouth marketing strategy to promote your app"
 date: "2020-03-02"
 categories: 

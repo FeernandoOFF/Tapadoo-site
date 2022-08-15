@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/01/thinkingOfBuildingAnApp02-01.png.webp
 title: "Do you have an app idea? Read this"
 date: "2020-01-13"
 categories: 

@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/09/infographicHookModelBlogpostImages-01.png.webp
 title: "The Hook Model Explained in an Infographic"
 date: "2019-11-18"
 categories: 

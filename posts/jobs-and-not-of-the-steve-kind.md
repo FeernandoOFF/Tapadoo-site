@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2015/02/Jobs.jpg.webp
 title: "Jobs. And not of the Steve kind."
 date: "2015-02-12"
 categories: 

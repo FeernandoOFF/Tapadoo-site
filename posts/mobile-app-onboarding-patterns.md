@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/william-hook-476194-unsplash.jpg.webp
 title: "Mobile App Onboarding Patterns"
 date: "2019-05-20"
 categories: 

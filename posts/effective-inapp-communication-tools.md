@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/blog_post_image_04.png.webp
 title: "3 Types of in-app communication"
 date: "2019-08-12"
 categories: 

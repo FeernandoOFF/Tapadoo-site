@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/01/sam-truong-dan-627874-unsplash.jpg.webp
 title: "EC2 instances and how to prevent unexpected bills"
 date: "2019-02-11"
 ---

@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/06/Screenshot-2020-06-24-at-16.18.09.png.webp
 title: "What you can expect from the release of iOS 14"
 date: "2020-06-29"
 categories: 

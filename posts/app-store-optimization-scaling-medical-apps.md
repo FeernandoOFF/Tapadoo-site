@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/Gummicube_External-Article-Header_200709_Tapadoo.png.webp
 title: "App Store Optimization: Scaling Medical Apps"
 date: "2020-08-03"
 categories: 

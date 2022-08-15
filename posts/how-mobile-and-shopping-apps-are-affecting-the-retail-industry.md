@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/smartphone-1184865_1920.png.webp
 title: "How Mobile and Shopping Apps are Affecting the Retail Industry"
 date: "2020-08-17"
 categories: 

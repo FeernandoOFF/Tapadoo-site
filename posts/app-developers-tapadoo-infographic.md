@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/02/about_tapadoo_blog_banner-01-1.jpg.webp
 title: "Ireland's leading team of app developers"
 date: "2019-02-25"
 categories: 

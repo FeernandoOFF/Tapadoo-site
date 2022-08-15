@@ -1,4 +1,5 @@
 ---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/cbe5e70a-3bb4-405c-887e-8e7b230bb45a.png.webp
 title: "5 Sketch Plugins for UI/UX Designers"
 date: "2020-07-27"
 categories: 

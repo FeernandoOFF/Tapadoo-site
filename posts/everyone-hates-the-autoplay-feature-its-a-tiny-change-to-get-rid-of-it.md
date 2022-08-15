@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/02/Screenshot-2020-02-11-13.57.08.png.webp
 title: "Everyone hates the autoplay feature. It's a tiny change to get rid of it"
 date: "2020-02-07"
 ---

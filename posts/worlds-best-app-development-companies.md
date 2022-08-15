@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/04/LinkedInBanner.png.webp
 title: "One of the world's best app development companies"
 date: "2019-04-22"
 categories: 

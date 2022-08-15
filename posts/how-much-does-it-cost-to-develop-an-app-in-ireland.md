@@ -1,4 +1,5 @@
 ---
+postImage: https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2020/11/App-Costs.png.webp
 title: "How much does it cost to develop an app in Ireland?"
 date: "2020-11-16"
 categories: 
