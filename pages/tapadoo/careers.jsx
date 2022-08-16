@@ -1,8 +1,7 @@
-const paperclip = require('../../public/img/assets/paperclip.svg');
-
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 
+const paperclip = require('../../public/img/assets/paperclip.svg');
 function Careers() {
   return (
     <div className="hero min-h-screen app-container place-items-start md:place-items-center relative">

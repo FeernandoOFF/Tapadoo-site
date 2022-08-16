@@ -1,0 +1,139 @@
+{
+  "main": {
+    "heading": "We&lsquo;re Tapadoo.  <br /> We make mobile apps.  ",
+    "paragraph": "Let&lsquo;s see if we can help. What would you like to know more about? "
+  },
+  "tapadoo": {
+    "about": {
+      "heading": "We are Tapadoo.",
+      "paragraph": "We are a team of App Development Specialists.  <br /> <br /> Founded in 2009, shortly after the release of the iPhone SDK, Tapadoo was created to focus on mobile app development. This is a focus that remains to this day.  <br /> <br /> We develop for iOS and Android, including production of back end systems to support these apps. <br /> <br /> The team consists of Designers, Developers, Project Managers and QA Specialists. We value long-term customer relationships; we&lsquo;ve worked with most of our customers for many years. Each of these started with a single project.",
+      "team": [
+        {
+          "label": "Dermot",
+          "image": "https://picsum.photos/200",
+          "charge": "The chase Master",
+          "twitter": "@dermdaly"
+        },
+        {
+          "label": "Peter Macmahon",
+          "image": "https://picsum.photos/200",
+          "charge": "Senior Project Manager"
+        },
+        {
+          "label": "Eddie Martin",
+          "image": "https://picsum.photos/200",
+          "charge": "The cyclist "
+        },
+        {
+          "label": "John Keyes",
+          "image": "https://picsum.photos/200",
+          "charge": "The code master"
+        },
+        {
+          "label": "Erencan Cabuk",
+          "image": "https://picsum.photos/200",
+          "charge": "The push up king"
+        },
+        {
+          "label": "Conor Martin",
+          "image": "https://picsum.photos/200",
+          "charge": "The Fortunate Son"
+        }
+      ]
+    },
+    "location": {
+      "heading": "We are here",
+      "paragraph": "Our office is located in 26-28 Strand Street Great, Dublin 1.  We&lsquo;re right in the heart of Dublin city centre. Most of our team work out of the office, although we do have remote staff too.  <br /> We have team members in Spain, Germany, and in other parts of Ireland too.  "
+    },
+    "work": {
+      "heading": "Who do we work with?",
+      "paragraph": " We work with a wide range of clients. Our focus is on fostering long-term relationships with them - Our aim is to be their &quot;Mobile App Department&quot;.  <br /> We have many clients with whom we have worked for over 5 years, and we pride ourselves in maintaining good relationships with them.  <br /> Broadly speaking we work in FinTech, MedTech, Pharma and Utilities.  ",
+      "testimonials": [
+        {
+          "name": "Fernando Obregon",
+          "quote": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco ",
+          "charge": "Senior Project Manager"
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Get in Touch ",
+      "paragraph": " Interested in a demo?  <br /> Have a question or a comment?  <br /> Simply fill out the form and we’ll be in touch ",
+      "phone": " +353 1 123456 ",
+      "mail": "enquiries@tapadoo.com ",
+      "location": "26-28 Strand Street Great, Dublin 1 "
+    }
+  },
+  "apps": {
+    "requisites": {
+      "heading": "Do I need an App?",
+      "paragraph": "This is a great question. Software is not always the answer to a problem, and apps are no different. You may need an app, you may not. Here&lsquo;s some things that can help you decide if you need an app: ",
+      "questionList": [
+        {
+          "questions": [
+            "Have you a website that provides functionality to your end-users?",
+            "Are many of them arriving from mobile browsers?"
+          ],
+          "recommendation": "These tend to be good indicators that you may need an app. Your users are already accessing your server on their phones and they would like to be kept logged in."
+        },
+        {
+          "questions": [
+            "      Is your product or service on offer something that is often purchased on a whim?",
+            "Is there a context that makes purchase more likely."
+          ],
+          "recommendation": "This is another reason why you may need an app. You may be offering something timely."
+        },
+        {
+          "questions": [
+            "Are you early stage and think an app is key to your new idea's success ? "
+          ],
+          "recommendation": "We'd urge you to read further. Advice for startups"
+        }
+      ]
+    },
+    "costs": {
+      "heading": " App development Cost ",
+      "paragraph": " It is very difficult to say what an app costs. This is because each app is unique, and built entirely for the client&lsquo;s purpose.  <br /> Each app can be thought of as something tailor-made for the client&lsquo;s needs. In simple terms, the cost of the app is proportional to the effort of creating it, which in turn is decided by the number of features and the complexity of those features; In addition, clients should consider that we develop natively for iOS and Android; these are very different platforms requiring specific code on each platform.  <br /> Each clients needs are very different so, we offer a discovery workshop to help gauge the size of the project. Of course we can work with the client to develop projects in stages to meet any budgetary constraints.  ",
+      "smallProject": " 25 - 40k ",
+      "mediumProject": " 40 - 80k ",
+      "largeProject": " 80k "
+    },
+    "successCases": {
+      "projects": [
+        {
+          "name": "App 1",
+          "client": "Coca cola",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione eos, illum minus maxime soluta magni voluptatem dicta tenetur accusamus architecto?",
+          "tags": ["FinTech", "IOS"],
+          "images": [
+            "https://placeimg.com/200/150/arch",
+            "https://placeimg.com/200/150/arch",
+            "https://placeimg.com/200/150/arch"
+          ]
+        },
+        {
+          "name": "App 2",
+          "client": "Coca cola",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione eos, illum minus maxime soluta magni voluptatem dicta tenetur accusamus architecto?",
+          "tags": ["FinTech", "IOS"],
+          "images": [
+            "https://placeimg.com/200/150/arch",
+            "https://placeimg.com/200/150/arch",
+            "https://placeimg.com/200/150/arch"
+          ]
+        },
+        {
+          "name": "App 3",
+          "client": "Coca cola",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione eos, illum minus maxime soluta magni voluptatem dicta tenetur accusamus architecto?",
+          "tags": ["FinTech", "IOS"],
+          "images": [
+            "https://placeimg.com/200/150/arch",
+            "https://placeimg.com/200/150/arch",
+            "https://placeimg.com/200/150/arch"
+          ]
+        }
+      ]
+    }
+  }
+}

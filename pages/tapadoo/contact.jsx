@@ -1,20 +1,26 @@
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 
+import { tapadoo } from '../../site-data.json';
+
 function Contact() {
   return (
     <div className="">
       <div className="hero min-h-screen app-container ">
         <div className="hero-content flex-col md:flex-row justify-between w-full min-h-[60vh] items-center md:items-start">
           <div className="text-center lg:text-left max-w-[600px]">
-            <h1 className="text-5xl font-bold">Get in Touch</h1>
-            <p className="py-6 opacity-70 font-light">
-              Interested in a demo?
-              <br />
-              Have a question or a comment?
-              <br />
-              Simply fill out the form and we’ll be in touch
-            </p>
+            <h1
+              className="text-5xl font-bold"
+              dangerouslySetInnerHTML={{
+                __html: tapadoo.contact.heading,
+              }}
+            />
+            <p
+              className="py-6 opacity-70 font-light"
+              dangerouslySetInnerHTML={{
+                __html: tapadoo.contact.paragraph,
+              }}
+            />
             <div className="flex my-4">
               <svg
                 width="24"
@@ -36,9 +42,13 @@ function Contact() {
                   fill="currentColor"
                 />
               </svg>
-              <p aria-label="Tapadoo Phone" className="mx-4">
-                +353 1 123456
-              </p>
+              <p
+                aria-label="Tapadoo Phone"
+                className="mx-4"
+                dangerouslySetInnerHTML={{
+                  __html: tapadoo.contact.phone,
+                }}
+              />
             </div>
             <div className="flex my-4">
               <svg
@@ -55,9 +65,13 @@ function Contact() {
                   fill="currentColor"
                 />
               </svg>
-              <p aria-label="Tapadoo mail" className="mx-4">
-                enquiries@tapadoo.com
-              </p>
+              <p
+                aria-label="Tapadoo mail"
+                className="mx-4"
+                dangerouslySetInnerHTML={{
+                  __html: tapadoo.contact.mail,
+                }}
+              />
             </div>
             <div className="flex my-4">
               <svg
@@ -80,9 +94,13 @@ function Contact() {
                   fill="currentColor"
                 />
               </svg>
-              <p aria-label="Tapadoo location" className="mx-4">
-                26-28 Strand Street Great, Dublin 1
-              </p>
+              <p
+                aria-label="Tapadoo location"
+                className="mx-4"
+                dangerouslySetInnerHTML={{
+                  __html: tapadoo.contact.location,
+                }}
+              />
             </div>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 h-full">
