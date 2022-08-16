@@ -53,23 +53,11 @@ function Header() {
     setActiveSubLink(activeSubLink);
   }, [currentLink, router]);
 
-  const onRefChange = useCallback(
-    (node) => {
-      if (!node) return;
-      const { x, width } = node.getBoundingClientRect();
-      line.current.style.width = `${x + width / 2 + 2}px`;
-    },
-    [currentLink]
-  );
-
-  // useEffect(() => {
-  //   console.log('header', linkElement.current);
-
-  //   if (!linkElement.current) return;
-  //   console.log('if');
-  // const { x, width } = linkElement.current.getBoundingClientRect();
-  // line.current.style.width = `${x + width / 2 + 3}px`;
-  // }, [linkElement]);
+  const onRefChange = useCallback((node) => {
+    if (!node) return;
+    const { x, width } = node.getBoundingClientRect();
+    line.current.style.width = `${x + width / 2 + 2}px`;
+  }, []);
 
   return (
     <>
