@@ -36,15 +36,21 @@ function About() {
           <div>
             <h1 className="app-title">We are Tapadoo.</h1>
             <p className="py-6 text-base lg:text-lg  font-normal ">
-              We are a team of App Development Specialists. Founded in 2009,
-              shortly after the release of the iPhone SDK, Tapadoo was created
-              to focus on mobile app development. This is a focus that remains
-              to this day. We develop for iOS and Android, including production
-              of back end systems to support these apps. The team consists of
-              Designers, Developers, Project Managers and QA Specialists. We
-              value long-term customer relationships; we&lsquo;ve worked with
-              most of our customers for many years. Each of these started with a
-              single project.
+              We are a team of App Development Specialists.
+              <br />
+              <br />
+              Founded in 2009, shortly after the release of the iPhone SDK,
+              Tapadoo was created to focus on mobile app development. This is a
+              focus that remains to this day.
+              <br />
+              <br />
+              We develop for iOS and Android, including production of back end
+              systems to support these apps. <br />
+              <br />
+              The team consists of Designers, Developers, Project Managers and
+              QA Specialists. We value long-term customer relationships;
+              we&lsquo;ve worked with most of our customers for many years. Each
+              of these started with a single project.
             </p>
             <p className="my-4 font-medium">
               Are we your next development partner?

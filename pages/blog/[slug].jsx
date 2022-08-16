@@ -67,4 +67,8 @@ export const getStaticProps = async ({ params: { slug } }) => {
 // BlogPost.getLayout = (page) => (
 //   <Layout title="Blog | Tapadoo "> {page} </Layout>
 // );
+
+BlogPost.getLayout = (page) => (
+  <Layout title="Blog | Tapadoo "> {page} </Layout>
+);
 export default BlogPost;

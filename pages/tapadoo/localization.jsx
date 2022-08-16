@@ -19,11 +19,12 @@ export default function Localization() {
           ></iframe>
         </div>
         <div className="max-w-xl">
-          <h1 className="app-title mb-[5vh]">We are Here!</h1>
+          <h1 className="app-title mb-[5vh]">We are here</h1>
           <p className="py-6">
             Our office is located in 26-28 Strand Street Great, Dublin 1.
             We&lsquo;re right in the heart of Dublin city centre. Most of our
             team work out of the office, although we do have remote staff too.
+            <br />
             We have team members in Spain, Germany, and in other parts of
             Ireland too.
           </p>

@@ -107,7 +107,8 @@ function Header() {
       </div>
       {/* Links band */}
       {currentLink && currentLink.children && currentSubLink && (
-        <div className="text-center text-sm mt-1 p-4 flex justify-center md:justify-evenly max-w-[1000px]  mx-auto overflow-hidden">
+        <div className="text-center text-sm mt-1 p-4 flex justify-center md:justify-evenly max-w-[1000px]  mx-auto overflow-x-hidden">
+          <div className="absolute h-[2px]   bg-gradient-to-l from-primary to-transparent top-[136px] left-0 w-[50vw] md:w-screen"></div>
           {currentLink.children.map(({ path, label }) => (
             <Link key={path} href={path}>
               <button
@@ -119,9 +120,10 @@ function Header() {
                 ${currentSubLink.path === path ? 'block' : 'hidden md:block'}
                 `}
               >
-                {currentLink.path === path && (
+                {/* Line band */}
+                {/* {currentLink.path === path && (
                   <div className="absolute h-[2px] bg-gradient-to-r from-primary to-transparent left-[50%] origin-left -bottom-4 w-screen"></div>
-                )}
+                )} */}
                 <p>{label}</p>
               </button>
             </Link>
@@ -132,6 +134,7 @@ function Header() {
   );
 }
 function LinkList({ className, expanded = false, currentLink }) {
+  const router = useRouter();
   return (
     <ul className={className}>
       {links.map(({ label, path, children }) => (
@@ -139,10 +142,9 @@ function LinkList({ className, expanded = false, currentLink }) {
           <Link href={path}>
             <a
               className={`${expanded ? 'font-semibold' : ''} ${
-                currentLink.path === path ? 'text-primary' : ''
+                currentLink?.path === path ? 'text-primary' : ''
               } `}
             >
-              {' '}
               {label}
             </a>
           </Link>
@@ -150,7 +152,15 @@ function LinkList({ className, expanded = false, currentLink }) {
             children &&
             children.map(({ label, path }) => (
               <Link key={path} href={path}>
-                {label}
+                <a
+                  className={` border my-2  ${
+                    path === router.asPath
+                      ? 'rounded-xl border-primary border font-semibold text-primary'
+                      : 'border-transparent'
+                  }`}
+                >
+                  {label}
+                </a>
               </Link>
             ))}
         </li>

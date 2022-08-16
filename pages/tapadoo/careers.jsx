@@ -1,3 +1,5 @@
+const paperclip = require('../../public/img/assets/paperclip.svg');
+
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 
@@ -9,13 +11,13 @@ function Careers() {
           <div className="bg-primary p-4 my-4 w-full  rounded-2xl flex flex-col text-white lg:max-w-[230px] lg:min-h-[250px]  lg:min-w-[200px] justify-between shadow-lg hiring-card-primary">
             <p className="text-left text-xl w-1/3 mb-2">IOS Developer</p>
             <button className="px-4 py-2 text-sm bg-white rounded-3xl text-black">
-              See Role
+              View Role
             </button>
           </div>
           <div className="bg-secondary p-4 my-4 w-full  rounded-2xl flex flex-col text-white lg:max-w-[230px] lg:min-h-[250px]  lg:min-w-[200px] justify-between shadow-lg hiring-card-secondary">
             <p className="text-left text-xl w-1/3 mb-2">Android Developer</p>
             <button className="px-4 py-2 text-sm bg-white rounded-3xl text-black">
-              See Role
+              View Role
             </button>
           </div>
         </div>
@@ -27,7 +29,8 @@ function Careers() {
             don&lsquo;t have an opening, but you&lsquo;d like to be considered
             for future roles, do drop us a mail with your CV.
           </p>
-          <button className="btn btn-primary rounded-3xl text-white w-full md:max-w-[250px]  text-sm">
+          <button className="btn btn-primary rounded-3xl gap-2 text-white w-full md:max-w-[250px]  text-sm">
+            <img src={paperclip.default.src} alt="" />
             Send Us your CV
           </button>
         </div>
