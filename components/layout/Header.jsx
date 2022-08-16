@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 
 const tapadooLargeLogo = require('../../public/img/logos/tapadoo-large-logo.png');
 
@@ -30,6 +30,7 @@ const links = [
 ];
 function Header() {
   const router = useRouter();
+  const line = useRef(null);
   const [currentLink, setCurrentLink] = useState('');
   const [currentSubLink, setActiveSubLink] = useState('');
 
@@ -51,6 +52,25 @@ function Header() {
     );
     setActiveSubLink(activeSubLink);
   }, [currentLink, router]);
+
+  const onRefChange = useCallback(
+    (node) => {
+      if (!node) return;
+      const { x, width } = node.getBoundingClientRect();
+      line.current.style.width = `${x + width / 2 + 2}px`;
+    },
+    [currentLink]
+  );
+
+  // useEffect(() => {
+  //   console.log('header', linkElement.current);
+
+  //   if (!linkElement.current) return;
+  //   console.log('if');
+  // const { x, width } = linkElement.current.getBoundingClientRect();
+  // line.current.style.width = `${x + width / 2 + 3}px`;
+  // }, [linkElement]);
+
   return (
     <>
       <div className="bg-base-100 shadow-sm">
@@ -108,10 +128,14 @@ function Header() {
       {/* Links band */}
       {currentLink && currentLink.children && currentSubLink && (
         <div className="text-center text-sm mt-1 p-4 flex justify-center md:justify-evenly max-w-[1000px]  mx-auto overflow-x-hidden">
-          <div className="absolute h-[2px]   bg-gradient-to-l from-primary to-transparent top-[136px] left-0 w-[50vw] md:w-screen"></div>
+          <div
+            ref={line}
+            className="absolute h-[2px]   bg-gradient-to-l from-primary to-transparent top-[136px] left-0 w-[50vw] md:w-screen"
+          ></div>
           {currentLink.children.map(({ path, label }) => (
             <Link key={path} href={path}>
               <button
+                ref={currentSubLink.path === path && onRefChange}
                 className={`py-2 px-4 p-3 rounded-[100px]  relative   ${
                   currentSubLink.path === path
                     ? 'border-primary  text-primary border after:h-4 after:w-[2px] after:bg-primary after:absolute after:-bottom-4 after:left-[50%]'
@@ -120,10 +144,6 @@ function Header() {
                 ${currentSubLink.path === path ? 'block' : 'hidden md:block'}
                 `}
               >
-                {/* Line band */}
-                {/* {currentLink.path === path && (
-                  <div className="absolute h-[2px] bg-gradient-to-r from-primary to-transparent left-[50%] origin-left -bottom-4 w-screen"></div>
-                )} */}
                 <p>{label}</p>
               </button>
             </Link>
