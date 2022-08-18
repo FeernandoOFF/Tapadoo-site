@@ -22,7 +22,7 @@ function About() {
               }}
             ></h1>
             <p
-              className="py-6 text-base lg:text-lg  font-normal "
+              className="py-6 text-base lg:text-lg font-normal "
               dangerouslySetInnerHTML={{
                 __html: siteData.tapadoo.about.paragraph,
               }}

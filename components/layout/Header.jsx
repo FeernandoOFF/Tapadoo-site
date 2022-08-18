@@ -65,11 +65,13 @@ function Header() {
         <header className="navbar max-w-7xl mx-auto  ">
           <div className="navbar-start">
             <Link href="/">
-              <img
-                src={tapadooLargeLogo.default.src}
-                alt="Tapadoo logo"
-                className="w-full  max-w-[120px] cursor-pointer"
-              />
+              <a>
+                <img
+                  src={tapadooLargeLogo.default.src}
+                  alt="Tapadoo logo"
+                  className="w-full  max-w-[120px] cursor-pointer"
+                />
+              </a>
             </Link>
           </div>
           <div className="navbar-end md:hidden flex">

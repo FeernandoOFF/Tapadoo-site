@@ -9,6 +9,12 @@
   .app-title {
     @apply text-4xl lg:text-6xl font-bold text-neutral;
   }
+  .blog-subtitle {
+    @apply text-3xl my-5 font-semibold text-neutral;
+  }
+  .blog-text {
+    @apply text-base lg:text-lg font-normal opacity-90;
+  }
 }
 
 .hiring-card-primary {

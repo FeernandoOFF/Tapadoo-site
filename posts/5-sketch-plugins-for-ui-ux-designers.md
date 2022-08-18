@@ -1,12 +1,12 @@
 ---
 postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/cbe5e70a-3bb4-405c-887e-8e7b230bb45a.png.webp
-title: "5 Sketch Plugins for UI/UX Designers"
-date: "2020-07-27"
-categories: 
-  - "design"
+title: '5 Sketch Plugins for UI/UX Designers'
+date: '2020-07-27'
+categories:
+  - 'design'
 ---
 
-The best plugins are not only reliable but complement your workflow and enhance your designs. Here’s a quick list of some of our favourites that are useful not only for app designers, but anyone using Sketch as their main design tool. 
+The best plugins are not only reliable but complement your workflow and enhance your designs. Here’s a quick list of some of our favourites that are useful not only for app designers, but anyone using Sketch as their main design tool.
 
 ### Sketch Measure
 
@@ -20,7 +20,7 @@ Sketch Measure is a plugin that generates all design details from colours, heigh
 
 ![Sketch Plugins.](images/Screenshot-2020-07-02-12.55.26.png)
 
-This is a simple and effective way to generate flow diagrams from artboards in Sketch. [User Flows](https://abynim.github.io/UserFlows/) has simple keyboard shortcuts to define links between artboard and add conditional notes between each step. It’s simple, it’s open-source and comes in really useful especially when you need to add more features to an existing design where going back to a basic wireframe isn’t practical. 
+This is a simple and effective way to generate flow diagrams from artboards in Sketch. [User Flows](https://abynim.github.io/UserFlows/) has simple keyboard shortcuts to define links between artboard and add conditional notes between each step. It’s simple, it’s open-source and comes in really useful especially when you need to add more features to an existing design where going back to a basic wireframe isn’t practical.
 
 ### Spell Check Whole Page by Tallwave
 
@@ -30,7 +30,7 @@ It’s very easy when in “design mode” to forget about the text you’re add
 
 ![Sketch PluginsA selection of device templates from Angle](images/Screenshot-2020-07-02-13.08.56-1024x796.png)
 
-If you’re going into a pitch and need sleek shots of your designs in device cases then Angle provides more than 1900 device mockups at different angles. While this one isn’t free if you regularly need to pitch app-based products and are looking for something outside of the face-on view of a device it’s worth the investment. 
+If you’re going into a pitch and need sleek shots of your designs in device cases then Angle provides more than 1900 device mockups at different angles. While this one isn’t free if you regularly need to pitch app-based products and are looking for something outside of the face-on view of a device it’s worth the investment.
 
 ### Unsplash
 
@@ -38,7 +38,7 @@ If you’re going into a pitch and need sleek shots of your designs in device ca
 
 [Patrick Tomasso on Unsplash](https://unsplash.com/photos/KGcLJwIYiac)
 
-If your app needs some gorgeous imagery for a gallery or news feed, [Unsplash](https://unsplash.com) has an easy to use plugin that will either randomly select an image from their curated content, or you can input a theme like “people” and it will choose one for you. 
+If your app needs some gorgeous imagery for a gallery or news feed, [Unsplash](https://unsplash.com) has an easy to use plugin that will either randomly select an image from their curated content, or you can input a theme like “people” and it will choose one for you.
 
 ## One I’m hearing good things about...
 

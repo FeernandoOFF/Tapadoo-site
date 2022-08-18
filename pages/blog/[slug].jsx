@@ -1,14 +1,69 @@
-import matter from 'gray-matter';
 import React from 'react';
+import matter from 'gray-matter';
+import ReactMarkdown from 'react-markdown';
+
+// import '../../styles/blog.css';
 import { Layout } from '../../components/layout/Layout';
 import { getFileData, getPostsFiles } from '../../utils/posts';
 
 function BlogPost({ post }) {
   return (
-    <div>
-      <img src={post.postImage} alt="" />
-      <p>{post.title}</p>
-      <p>{post.content} </p>
+    <div className="p-4 max-w-5xl mx-auto  mt-[5vh]">
+      <figure>
+        <img
+          src={post.postImage}
+          alt={post.title + 'Tapadoo blog'}
+          className="rounded-xl max-w-[90vw] mx-auto w-full"
+        />
+      </figure>
+      <section className="mb-10">
+        <h1 className="app-title my-8">{post.title}</h1>
+        <div className="categories">
+          <p className="my-4 text-lg font-medium">Tags : </p>
+          {post.categories?.map((category) => (
+            <p
+              key={category}
+              className="p-2 text-xs px-4 bg-neutral rounded-lg inline-block  text-gray-100 font-semibold cursor-pointer"
+            >
+              {category}
+            </p>
+          ))}
+        </div>
+        <div className="w-full bg-neutral h-[1px] my-8 opacity-60"></div>
+        <ReactMarkdown
+          components={{
+            h2: ({ children }) => (
+              <h2 className="blog-subtitle ">{children}</h2>
+            ),
+            h3: ({ children }) => (
+              <h3 className="blog-subtitle text-2xl ">{children}</h3>
+            ),
+            h4: ({ children }) => (
+              <h4 className="blog-subtitle text-2xl ">{children}</h4>
+            ),
+            h5: ({ children }) => (
+              <h5 className="blog-subtitle text-2xl ">{children}</h5>
+            ),
+            h6: ({ children }) => (
+              <h6 className="blog-subtitle text-2xl ">{children}</h6>
+            ),
+            p: ({ children }) => (
+              <p className="blog-text text-justify">{children}</p>
+            ),
+            a: ({ children, href }) => (
+              <a className="text-primary " href={href}>
+                {children}
+              </a>
+            ),
+            li: ({ children }) => (
+              <li className="list-disc ml-5 my-1">{children}</li>
+            ),
+            img: ({ src }) => <img src={'/' + src} className="my-3" />,
+          }}
+        >
+          {post.content}
+        </ReactMarkdown>
+      </section>
     </div>
   );
 }
