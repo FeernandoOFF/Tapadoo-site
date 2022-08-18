@@ -4,8 +4,11 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: isProd ? '/Tapadoo-site' : '',
-  assetPrefix: isProd ? '/Tapadoo-site' : '',
+  basePath: process.env.siteURL,
+  assetPrefix: process.env.siteURL,
+  env: {
+    siteURL: isProd ? '/Tapadoo-site' : '',
+  },
 };
 
 module.exports = nextConfig;

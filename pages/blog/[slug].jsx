@@ -18,6 +18,7 @@ function BlogPost({ post }) {
       </figure>
       <section className="mb-10">
         <h1 className="app-title my-8">{post.title}</h1>
+
         <div className="categories">
           <p className="my-4 text-lg font-medium">Tags : </p>
           {post.categories?.map((category) => (
@@ -58,7 +59,9 @@ function BlogPost({ post }) {
             li: ({ children }) => (
               <li className="list-disc ml-5 my-1">{children}</li>
             ),
-            img: ({ src }) => <img src={'/' + src} className="my-3" />,
+            img: ({ src }) => (
+              <img src={process.env.siteURL + '/' + src} className="my-3" />
+            ),
           }}
         >
           {post.content}

@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tapadoo Site
 
-## Getting Started
+This site is based on the [figma designs ](<https://www.figma.com/file/iRMtFZO0FTO1UjduelfEAm/tapadoo-(Copy)?node-id=0%3A1>)
 
-First, run the development server:
+## Change content
 
-```bash
-npm run dev
-# or
-yarn dev
+I've created JSON file where almost all the content is divided by sections. By changing this file and rebuilding the site you'll see the changes on the site
+
+```
+site-data.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Blog
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The blog is created on build time and it gets his data from `md files` stored in the `posts/` folder
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Blog post template
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+---
+postImage: https://2upm2b1wdft320vzjj34rpga-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/A_B-Testing-Tools.png.webp
+title: '3 Best Mobile App A/B Testing Tools'
+date: '2020-09-07'
+categories:
+  - 'marketing'
+---
 
-## Learn More
+## Text
 
-To learn more about Next.js, take a look at the following resources:
+blogpost text....
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Links
+![](image.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[link](https://google.com)
 
-## Deploy on Vercel
+### Lists
+ - this
+ - is
+ - a list
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Publishing changes
+
+If you make changes either in the page content or you add a new blog post. You only have to make sure to trigger the github action (make a commit into main)
