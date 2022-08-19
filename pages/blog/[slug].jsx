@@ -60,7 +60,10 @@ function BlogPost({ post }) {
               <li className="list-disc ml-5 my-1">{children}</li>
             ),
             img: ({ src }) => (
-              <img src={process.env.siteURL + '/' + src} className="my-3" />
+              <img
+                src={process.env.siteURL + '/' + src}
+                className="my-3 mx-auto"
+              />
             ),
           }}
         >
