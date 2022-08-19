@@ -14,6 +14,10 @@ site-data.json
 
 The blog is created on build time and it gets his data from `md files` stored in the `posts/` folder
 
+### Featured post
+
+In the `site-data` file `blog:featured` you can set the `fileName` this has to match the file within the `posts/` folder also you can set a extract to show why is the post important to read
+
 ### Blog post template
 
 ```

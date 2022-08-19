@@ -3,33 +3,37 @@ import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 
 // import '../../styles/blog.css';
-import { Layout } from '../../components/layout/Layout';
-import { getFileData, getPostsFiles } from '../../utils/posts';
+import { Layout } from '../../../components/layout/Layout';
+import { getFileData, getPostsFiles } from '../../../utils/posts';
 
 function BlogPost({ post }) {
   return (
     <div className="p-4 max-w-5xl mx-auto  mt-[5vh]">
       <figure>
         <img
-          src={post.postImage}
+          src={
+            post.postImage ||
+            'https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/04/tapadoo_background_linkedin.png.webp'
+          }
           alt={post.title + 'Tapadoo blog'}
           className="rounded-xl max-w-[90vw] mx-auto w-full"
         />
       </figure>
       <section className="mb-10">
         <h1 className="app-title my-8">{post.title}</h1>
-
-        <div className="categories">
-          <p className="my-4 text-lg font-medium">Tags : </p>
-          {post.categories?.map((category) => (
-            <p
-              key={category}
-              className="p-2 text-xs px-4 bg-neutral rounded-lg inline-block  text-gray-100 font-semibold cursor-pointer"
-            >
-              {category}
-            </p>
-          ))}
-        </div>
+        {post.categories && (
+          <div className="categories">
+            <p className="my-4 text-lg font-medium">Tags : </p>
+            {post.categories?.map((category) => (
+              <p
+                key={category}
+                className="p-2 text-xs px-4 bg-neutral rounded-lg inline-block  text-gray-100 font-semibold cursor-pointer"
+              >
+                {category}
+              </p>
+            ))}
+          </div>
+        )}
         <div className="w-full bg-neutral h-[1px] my-8 opacity-60"></div>
         <ReactMarkdown
           components={{

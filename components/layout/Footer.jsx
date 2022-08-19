@@ -38,7 +38,7 @@ export default function Footer() {
           <Link href="/apps/costs">
             <a className="link link-hover">Pricing</a>
           </Link>
-          <Link href="/blog">
+          <Link href="/blog/1">
             <a className="link link-hover">Blog</a>
           </Link>
         </div>

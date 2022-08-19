@@ -26,7 +26,7 @@ const links = [
       { label: 'Process', path: '/apps/process' },
     ],
   },
-  { label: 'Blog', path: '/blog' },
+  { label: 'Blog', path: '/blog/1' },
 ];
 function Header() {
   const router = useRouter();

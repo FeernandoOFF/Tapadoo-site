@@ -157,6 +157,7 @@
     }
   },
   "blog": {
+    "pageSize": 20,
     "featured": {
       "fileName": "5-reasons-why-utility-companies-need-a-mobile-utility-app.md",
       "extract": "Hellooo how are wee?"
