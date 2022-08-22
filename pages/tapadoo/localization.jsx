@@ -17,7 +17,7 @@ export default function Localization() {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9527.198742431867!2d-6.2647209!3d53.3468419!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0ad7b5e4cb529d8!2sTapadoo!5e0!3m2!1sen!2sie!4v1660056286127!5m2!1sen!2sie"
             loading="lazy"
-            className="mask mask-circle my-[10vh] w-full min-w-[200px] min-h-[200px] aspect-square  lg:min-w-[350px] lg:min-h-[350px] "
+            className="mask mask-circle my-[10vh] w-full min-w-[200px] min-h-[200px] aspect-square  lg:min-w-[350px] lg:min-h-[350px]  shadow-xl"
           ></iframe>
         </div>
         <div className="max-w-xl">
