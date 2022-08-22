@@ -2,9 +2,15 @@ import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 import { apps } from '../../site-data.json';
 
+const requisitesSvg = require('../../public/img/assets/requisites-svg.svg');
 function Requisites() {
   return (
     <>
+      <img
+        src={requisitesSvg.default.src}
+        className=" max-w-[500px] w-4/5 absolute right-10 -top-20 lg:top-[5vh] z-10"
+      />
+
       <div className="hero min-h-[80vh] mt-[20vh] md:mt-0  mx-auto">
         <div className="hero-content flex-col lg:flex-row justify-between w-full  max-w-[1200px]">
           <div className="max-w-2xl w-full md:w-2/5">

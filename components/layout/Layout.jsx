@@ -10,7 +10,7 @@ export function Layout({ children, title = 'Test layout' }) {
         <title>{title}</title>
       </Head>
       <Header />
-      <main className="min-h-[70vh]">{children}</main>
+      <main className="min-h-[70vh] relative">{children}</main>
       <Footer />
     </>
   );

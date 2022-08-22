@@ -1,17 +1,23 @@
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
+import { tapadoo } from '../../site-data.json';
 
 const WorkTiles = require('../../public/img/work-tiles.png');
-import { tapadoo } from '../../site-data.json';
+const workSvg = require('../../public/img/assets/work2-svg.svg');
 
 function Work() {
   return (
     <>
       <img
         src={WorkTiles.default.src}
-        className=" max-w-[600px] w-full my-[10vh] md:my-0 absolute right-0 top-[8vh] lg:top-[20vh]"
+        className=" max-w-[600px] w-full   absolute right-0 -top-20 lg:top-[5vh] z-10"
       />
-      <div className="hero min-h-[80vh] mt-[20vh] md:mt-0">
+      <img
+        src={workSvg.default.src}
+        alt="background shape"
+        className="absolute  h-screen md:bottom-0  right-0 z-[-1] max-w-lg"
+      />
+      <div className="hero min-h-[80vh] mt-[10vh] md:mt-0">
         <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">
           <div></div>
           <div className="max-w-2xl">
@@ -31,7 +37,7 @@ function Work() {
           </div>
         </div>
       </div>
-      <section className="testimonials app-container  ">
+      <section className="testimonials app-container  relative">
         <h1 className="text-4xl lg:text-6xl font-bold text-neutral mb-7">
           Testimonials
         </h1>
