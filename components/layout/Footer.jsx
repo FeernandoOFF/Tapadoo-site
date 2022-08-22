@@ -4,7 +4,7 @@ const tapadooLargeLogo = require('../../public/img/logos/tapadoo-large-logo.png'
 
 export default function Footer() {
   return (
-    <footer className="p-10 bg-[#F5F5F590] text-[#A09893]  ">
+    <footer className="p-10 bg-[#eeeeee90] text-[#A09893]  ">
       <div className="app-container footer">
         <div>
           <img

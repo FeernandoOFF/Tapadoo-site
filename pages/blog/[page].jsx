@@ -10,6 +10,7 @@ import { getFileData, getPostsFiles, sortByDate } from '../../utils/posts';
 import siteData from '../../site-data.json';
 import { useRouter } from 'next/router';
 
+// Site
 function Blog({ posts, featured, sitePages }) {
   const router = useRouter();
   const currentPageIndex = sitePages.indexOf(+router.query.page);
@@ -17,6 +18,7 @@ function Blog({ posts, featured, sitePages }) {
   return (
     <div className="app-container">
       <h2 className="app-title">Blog</h2>
+      {/* Featured */}
       <Link key={featured.post.title} href={`/blog/post/${featured.post.slug}`}>
         <a href="">
           <div className="w-full shadow-xl rounded-lg p-8 my-[5vh] md:flex gap-4 cursor-pointer">
@@ -42,34 +44,11 @@ function Blog({ posts, featured, sitePages }) {
           </div>
         </a>
       </Link>
+      {/* Post Grid */}
       <div className="post-grid flex flex-wrap  justify-between">
         {posts.map((post, i) => {
           if (!post) return;
-          return (
-            <Link key={i} href={`/blog/post/${post.slug}`}>
-              <a href="">
-                <div className="w-full shadow-xl rounded-lg  my-[2vh] lg:max-w-[350px] md:max-w-[300px] cursor-pointer">
-                  <div className="w-full">
-                    <img
-                      src={
-                        post.postImage ||
-                        'https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/04/tapadoo_background_linkedin.png.webp'
-                      }
-                      alt=""
-                      className="w-full rounded-t-lg max-w-[100%] aspect-video"
-                    />
-                  </div>
-                  <div className="content p-6">
-                    <h2 className="app-title text-2xl my-3">{post?.title} </h2>
-                    <div className="flex justify-between w-full">
-                      <p>{post?.date} </p>
-                      <p className="font-semibold text-neutral ">Read More</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </Link>
-          );
+          return <Post key={i} post={post} />;
         })}
       </div>
       <div className="paginator w-full max-w-[50vw] mx-auto flex justify-between mt-[10vh] font-semibold items-center">
@@ -80,7 +59,7 @@ function Blog({ posts, featured, sitePages }) {
                 src={leftArrow.src}
                 alt="Double left arrow"
                 aria-label="last blog page"
-                className="max-w-[20px] aspect-square"
+                className="max-w-[20px] aspect-square opacity-70"
               />
             </a>
           </Link>
@@ -113,12 +92,40 @@ function Blog({ posts, featured, sitePages }) {
               src={rightArrow.src}
               alt="Double right arrow"
               aria-label="last blog page"
-              className="max-w-[20px] aspect-square"
+              className="max-w-[20px] aspect-square opacity-70"
             />
           </a>
         </Link>
       </div>
     </div>
+  );
+}
+
+function Post({ post }) {
+  return (
+    <Link href={`/blog/post/${post.slug}`}>
+      <a href="">
+        <div className="w-full shadow-xl rounded-lg  my-[2vh] lg:max-w-[350px] md:max-w-[300px] cursor-pointer">
+          <div className="w-full">
+            <img
+              src={
+                post.postImage ||
+                'https://cdn-bhcgp.nitrocdn.com/lQsUIlYWTGkhjqgYKmLJkHSBczAwGDPM/assets/static/optimized/rev-f8d7f54/wp-content/uploads/2019/04/tapadoo_background_linkedin.png.webp'
+              }
+              alt=""
+              className="w-full rounded-t-lg max-w-[100%] aspect-video"
+            />
+          </div>
+          <div className="content p-6">
+            <h2 className="app-title text-2xl my-3">{post?.title} </h2>
+            <div className="flex justify-between w-full">
+              <p>{post?.date} </p>
+              <p className="font-semibold text-neutral   ">Read More</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </Link>
   );
 }
 
@@ -178,7 +185,6 @@ export const getStaticProps = async ({ params: { page } }) => {
     Array(Math.ceil(postsNames.length / siteData.blog.pageSize)).keys()
   ).map((i) => ++i);
 
-  console.log(paginator, 'page: ', page);
   return {
     props: {
       sitePages,
