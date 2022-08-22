@@ -31,8 +31,18 @@ const links = [
 function Header() {
   const router = useRouter();
   const line = useRef(null);
+  const [windowSize, setWindowSize] = useState('');
+
   const [currentLink, setCurrentLink] = useState('');
   const [currentSubLink, setActiveSubLink] = useState('');
+
+  useEffect(() => {
+    window.addEventListener('resize', (x) => setWindowSize(x));
+
+    return () => {
+      window.removeEventListener('resize', (x) => setWindowSize(x));
+    };
+  }, []);
 
   useEffect(() => {
     if (!router.asPath) return;
@@ -53,11 +63,15 @@ function Header() {
     setActiveSubLink(activeSubLink);
   }, [currentLink, router]);
 
-  const onRefChange = useCallback((node) => {
-    if (!node) return;
-    const { x, width } = node.getBoundingClientRect();
-    line.current.style.width = `${x + width / 2 + 2}px`;
-  }, []);
+  const onRefChange = useCallback(
+    (node) => {
+      if (!node) return;
+
+      const { x, width } = node.getBoundingClientRect();
+      line.current.style.width = `${x + width / 2 + 2}px`;
+    },
+    [windowSize]
+  );
 
   return (
     <>
