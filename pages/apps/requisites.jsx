@@ -8,7 +8,7 @@ function Requisites() {
     <>
       <img
         src={requisitesSvg.default.src}
-        className=" max-w-[500px] w-4/5 absolute right-10 -top-20 lg:top-[5vh] z-10"
+        className=" max-w-[500px] w-4/5 absolute right-10 -top-20 lg:top-[5vh] "
       />
 
       <div className="hero min-h-[80vh] mt-[20vh] md:mt-0  mx-auto">

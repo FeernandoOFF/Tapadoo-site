@@ -75,7 +75,7 @@ function Header() {
 
   return (
     <>
-      <div className="bg-base-100 shadow-sm">
+      <div className="bg-base-100 shadow-sm z-50">
         <header className="navbar max-w-7xl mx-auto  ">
           <div className="navbar-start">
             <Link href="/">
@@ -117,7 +117,7 @@ function Header() {
               <LinkList
                 expanded
                 currentLink={currentLink}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 z-50"
               />
             </div>
           </div>
@@ -140,7 +140,7 @@ function Header() {
             <Link key={path} href={path}>
               <button
                 ref={currentSubLink.path === path && onRefChange}
-                className={`py-2 px-4 p-3 rounded-[100px]  relative   ${
+                className={`py-2 px-4 p-3 rounded-[100px] z-50  relative   ${
                   currentSubLink.path === path
                     ? 'border-primary  text-primary border after:h-4 after:w-[2px] after:bg-primary after:absolute after:-bottom-4 after:left-[50%]'
                     : 'btn-ghost border-gray-400 border'

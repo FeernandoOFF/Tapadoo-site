@@ -77,7 +77,7 @@
       ]
     },
     "contact": {
-      "heading": "Get in Touch ",
+      "heading": "Get in touch ",
       "paragraph": " Interested in a demo?  <br /> Have a question or a comment?  <br /> Simply fill out the form and we’ll be in touch ",
       "phone": " +353 1 123456 ",
       "mail": "enquiries@tapadoo.com ",
@@ -86,7 +86,7 @@
   },
   "apps": {
     "requisites": {
-      "heading": "Do I need an App?",
+      "heading": "Do I need an app?",
       "paragraph": "This is a great question. Software is not always the answer to a problem, and apps are no different. You may need an app, you may not. Here&lsquo;s some things that can help you decide if you need an app: ",
       "questionList": [
         {
@@ -112,7 +112,7 @@
       ]
     },
     "costs": {
-      "heading": " App development Cost ",
+      "heading": " App development cost ",
       "paragraph": " It is very difficult to say what an app costs. This is because each app is unique, and built entirely for the client&lsquo;s purpose.  <br /> Each app can be thought of as something tailor-made for the client&lsquo;s needs. In simple terms, the cost of the app is proportional to the effort of creating it, which in turn is decided by the number of features and the complexity of those features; In addition, clients should consider that we develop natively for iOS and Android; these are very different platforms requiring specific code on each platform.  <br /> Each clients needs are very different so, we offer a discovery workshop to help gauge the size of the project. Of course we can work with the client to develop projects in stages to meet any budgetary constraints.  ",
       "smallProject": " 25 - 40k ",
       "mediumProject": " 40 - 80k ",
