@@ -11,6 +11,7 @@ function Work() {
       <img
         src={WorkTiles.default.src}
         className=" max-w-[600px] w-full   absolute right-0 -top-20 lg:top-[5vh] z-10"
+        alt="Tapadoo companies that we've work with"
       />
       <img
         src={workSvg.default.src}

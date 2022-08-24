@@ -51,51 +51,37 @@ function Blog({ posts, featured, sitePages }) {
           return <Post key={i} post={post} />;
         })}
       </div>
-      <div className="paginator w-full max-w-[50vw] mx-auto flex justify-between mt-[10vh] font-semibold items-center">
+      <div className="btn-group  flex-nowrap justify-center my-[10vh]">
+        {/* Retrun all */}
         {router.query.page > 1 && (
           <Link href={`/blog/1`}>
-            <a>
-              <img
-                src={leftArrow.src}
-                alt="Double left arrow"
-                aria-label="last blog page"
-                className="max-w-[20px] aspect-square opacity-70"
-              />
-            </a>
+            <a className={`btn btn-ghost`}>«</a>
           </Link>
         )}
 
         {sitePages.map((page, index) => {
-          // max of 4 navigation
-          if (index > currentPageIndex + 4 || index < currentPageIndex - 4)
+          // max of 3 navigation
+          if (index > currentPageIndex + 2 || index < currentPageIndex - 2)
             return false;
 
           return (
             <Link key={page} href={`/blog/${page}`}>
-              <a href="">
-                <div
-                  className={`px-4 py-3  rounded-md cursor-pointer ${
-                    page == router.query.page
-                      ? 'bg-primary text-white'
-                      : 'bg-slate-300'
-                  } `}
-                >
-                  {page}
-                </div>
+              <a
+                className={`btn ${
+                  page == router.query.page ? 'btn-active' : 'btn-ghost'
+                } `}
+              >
+                {page}
               </a>
             </Link>
           );
         })}
-        <Link href={`/blog/${sitePages.length}`}>
-          <a>
-            <img
-              src={rightArrow.src}
-              alt="Double right arrow"
-              aria-label="last blog page"
-              className="max-w-[20px] aspect-square opacity-70"
-            />
-          </a>
-        </Link>
+
+        {router.query.page != sitePages.length && (
+          <Link href={`/blog/${sitePages.length}`}>
+            <a className={`btn btn-ghost`}>»</a>
+          </Link>
+        )}
       </div>
     </div>
   );
