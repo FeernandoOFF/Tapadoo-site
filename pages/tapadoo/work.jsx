@@ -38,12 +38,12 @@ function Work() {
           </div>
         </div>
       </div>
-      <section className="testimonials app-container  relative">
-        <h1 className="text-4xl lg:text-6xl font-bold text-neutral mb-7">
+      <section className="testimonials   relative ml-auto p-4">
+        <h1 className="text-4xl lg:text-6xl font-bold text-neutral mb-7 app-container">
           Testimonials
         </h1>
         <div className="testimonial-carrousel mb-[10vh]">
-          <div className="carousel  carousel-center  p-4 space-x-4  rounded-box w-full">
+          <div className="carousel    p-4 space-x-4  rounded-box w-full">
             {tapadoo.work.testimonials.map((quote) => (
               <div
                 key={quote.name}
