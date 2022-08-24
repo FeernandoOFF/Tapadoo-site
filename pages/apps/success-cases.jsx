@@ -51,7 +51,7 @@ function AppItem({ app }) {
           {app.tags.map((tag) => (
             <button
               key={tag}
-              className="btn btn-ghost border-primary text-primary mr-4"
+              className="  text-center justify-center inline-flex  p-3  hover:backdrop-blur-0 text-primary mr-4"
             >
               {tag}
             </button>

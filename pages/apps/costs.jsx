@@ -22,11 +22,11 @@ function Costs() {
               }}
             />
           </div>
-          <div className="costs-container flex flex-col   w-full md:w-1/2 md:ml-10 text-xs max-w-[600px] ">
+          <div className="costs-container flex flex-col   w-full md:w-1/2 md:ml-10 text-base max-w-[600px] ">
             <div className="w-full shadow-xl my-4 rounded-lg p-6 gap-8 flex flex-nowrap justify-start items-center">
               <div>
                 <div className="h-10 w-10 rounded-lg bg-gray-100 relative">
-                  <div className="small w-4 h-4 bg-neutral opacity-80 rounded-md absolute left-1 top-1"></div>
+                  <div className="small w-4 h-4 bg-[#C0AEA5] opacity-80 rounded-md absolute left-1 top-1"></div>
                 </div>
               </div>
               <p>
@@ -38,7 +38,7 @@ function Costs() {
             <div className="w-full shadow-xl my-4 rounded-lg p-6 gap-8 flex flex-nowrap justify-start items-center">
               <div>
                 <div className="h-10 w-10 rounded-lg bg-gray-100 relative">
-                  <div className="medium w-6 h-6 bg-neutral opacity-80 rounded-md absolute left-1 top-1"></div>
+                  <div className="medium w-6 h-6 bg-[#90786B] opacity-80 rounded-md absolute left-1 top-1"></div>
                 </div>
               </div>
               <p>
@@ -52,7 +52,7 @@ function Costs() {
             </div>
             <div className="w-full shadow-xl my-4 rounded-lg p-6 gap-8 flex flex-nowrap justify-start items-center">
               <div>
-                <div className="h-10 w-10 rounded-lg bg-neutral relative opacity-90"></div>
+                <div className="h-10 w-10 rounded-lg bg-[#5A473D] relative opacity-90"></div>
               </div>
               <p>
                 A <b>larger</b> project would have a budget in excess of{' '}
