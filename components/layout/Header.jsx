@@ -134,7 +134,7 @@ function Header() {
         <div className="text-center text-sm mt-1 p-4 flex justify-center md:justify-evenly max-w-[1000px]  mx-auto overflow-x-hidden">
           <div
             ref={line}
-            className="absolute h-[2px]   bg-gradient-to-l from-primary to-transparent top-[136px] left-0 w-[50vw] md:w-screen"
+            className="absolute h-[1px]   bg-gradient-to-l from-primary to-transparent top-[136px] left-0 w-[50vw] md:w-screen"
           ></div>
           {currentLink.children.map(({ path, label }) => (
             <Link key={path} href={path}>
@@ -142,7 +142,7 @@ function Header() {
                 ref={currentSubLink.path === path && onRefChange}
                 className={`py-2 px-4 p-3 rounded-[100px] z-50  relative   ${
                   currentSubLink.path === path
-                    ? 'border-primary  text-primary border after:h-4 after:w-[2px] after:bg-primary after:absolute after:-bottom-4 after:left-[50%]'
+                    ? 'border-primary  text-primary border after:h-4 after:w-[1px] after:bg-primary after:absolute after:-bottom-4 after:left-[51%]'
                     : 'btn-ghost border-gray-400 border'
                 } 
                 ${currentSubLink.path === path ? 'block' : 'hidden md:block'}

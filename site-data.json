@@ -79,9 +79,10 @@
     "contact": {
       "heading": "Get in touch ",
       "paragraph": " Interested in a demo?  <br /> Have a question or a comment?  <br /> Simply fill out the form and we’ll be in touch ",
-      "phone": " +353 1 123456 ",
+      "phone": "+353 1 555 222 4",
       "mail": "enquiries@tapadoo.com ",
-      "location": "26-28 Strand Street Great, Dublin 1 "
+      "location": "26-28 Strand Street Great, Dublin 1 ",
+      "locationURL": "https://goo.gl/maps/8Q1WtLmA8t41bNnJ6"
     }
   },
   "apps": {

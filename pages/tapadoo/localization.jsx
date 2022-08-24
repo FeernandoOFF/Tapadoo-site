@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Layout } from '../../components/layout/Layout';
 
 const locationSvg = require('../../public/img/assets/location-svg.svg');

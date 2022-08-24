@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 const tapadooLargeLogo = require('../../public/img/logos/tapadoo-large-logo.png');
+import siteData from '../../site-data.json';
+const tapadoo = siteData.tapadoo;
 
 export default function Footer() {
   return (
@@ -13,18 +15,39 @@ export default function Footer() {
             className="w-full  max-w-[120px] cursor-pointer grayscale"
           />
           <div className="my-4">
-            <p>26-28 Strand Street Great, Dublin 1 </p>
-            <a href="mailto:enquiries@tapadoo.com">enquiries@tapadoo.com</a>
+            <a href={`${tapadoo.contact.locationURL}`}>
+              <p
+                aria-label="Tapadoo location"
+                className="my-2"
+                dangerouslySetInnerHTML={{
+                  __html: tapadoo.contact.location,
+                }}
+              />
+            </a>
+            <a href={`mailto:${tapadoo.contact.mail}`}>
+              <p
+                aria-label="Tapadoo mail"
+                className=""
+                dangerouslySetInnerHTML={{
+                  __html: tapadoo.contact.mail,
+                }}
+              />
+            </a>
           </div>
-          <a href="tel:3531123456">+353 1 123456</a>
+          <a href={`tel:${tapadoo.contact.phone}`}>
+            <p
+              aria-label="Tapadoo Phone"
+              className=""
+              dangerouslySetInnerHTML={{
+                __html: tapadoo.contact.phone,
+              }}
+            />
+          </a>
         </div>
         <div>
           <span className="footer-title">Links</span>
           <Link href="/tapadoo/contact">
             <a className="link link-hover">Privacy Policy</a>
-          </Link>
-          <Link href="/tapadoo/contact">
-            <a className="link link-hover">Support</a>
           </Link>
         </div>
         <div>

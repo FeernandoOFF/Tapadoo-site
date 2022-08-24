@@ -14,36 +14,42 @@ import { useRouter } from 'next/router';
 function Blog({ posts, featured, sitePages }) {
   const router = useRouter();
   const currentPageIndex = sitePages.indexOf(+router.query.page);
+  console.log(currentPageIndex);
 
   return (
     <div className="app-container">
       <h2 className="app-title">Blog</h2>
       {/* Featured */}
-      <Link key={featured.post.title} href={`/blog/post/${featured.post.slug}`}>
-        <a href="">
-          <div className="w-full shadow-xl rounded-lg p-8 my-[5vh] md:flex gap-4 cursor-pointer">
-            <div className="md:w-1/2 flex flex-col justify-between px-3">
-              <div className="">
-                <h2 className="app-title text-2xl">{featured.post.title} </h2>
-                <p className="my-4 font-light opacity-70 pl-3">
-                  {featured.extract}
-                </p>
+      {currentPageIndex === 0 && (
+        <Link
+          key={featured.post.title}
+          href={`/blog/post/${featured.post.slug}`}
+        >
+          <a href="">
+            <div className="w-full shadow-xl rounded-lg p-8 my-[5vh] md:flex gap-4 cursor-pointer">
+              <div className="md:w-1/2 flex flex-col justify-between px-3">
+                <div className="">
+                  <h2 className="app-title text-2xl">{featured.post.title} </h2>
+                  <p className="my-4 font-light opacity-70 pl-3">
+                    {featured.extract}
+                  </p>
+                </div>
+                <div className="flex justify-between w-11/12 mx-auto">
+                  <p>{featured.post.date} </p>
+                  <p className="font-semibold text-neutral ">Read More</p>
+                </div>
               </div>
-              <div className="flex justify-between w-11/12 mx-auto">
-                <p>{featured.post.date} </p>
-                <p className="font-semibold text-neutral ">Read More</p>
+              <div className="md:w-1/2">
+                <img
+                  src={featured.post.postImage}
+                  alt=""
+                  className="rounded-md"
+                />
               </div>
             </div>
-            <div className="md:w-1/2">
-              <img
-                src={featured.post.postImage}
-                alt=""
-                className="rounded-md"
-              />
-            </div>
-          </div>
-        </a>
-      </Link>
+          </a>
+        </Link>
+      )}
       {/* Post Grid */}
       <div className="post-grid flex flex-wrap  justify-between">
         {posts.map((post, i) => {

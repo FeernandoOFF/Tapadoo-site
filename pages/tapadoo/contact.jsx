@@ -22,7 +22,7 @@ function Contact() {
                 __html: tapadoo.contact.paragraph,
               }}
             />
-            <div className="flex my-4">
+            <div className="flex my-4 underline text-primary opacity-80">
               <svg
                 width="24"
                 height="24"
@@ -43,15 +43,17 @@ function Contact() {
                   fill="currentColor"
                 />
               </svg>
-              <p
-                aria-label="Tapadoo Phone"
-                className="mx-4"
-                dangerouslySetInnerHTML={{
-                  __html: tapadoo.contact.phone,
-                }}
-              />
+              <a className="" href={`tel:${tapadoo.contact.phone}`}>
+                <p
+                  aria-label="Tapadoo Phone"
+                  className="mx-4"
+                  dangerouslySetInnerHTML={{
+                    __html: tapadoo.contact.phone,
+                  }}
+                />
+              </a>
             </div>
-            <div className="flex my-4">
+            <div className="flex my-4 underline text-primary opacity-80">
               <svg
                 width="24"
                 height="24"
@@ -66,15 +68,17 @@ function Contact() {
                   fill="currentColor"
                 />
               </svg>
-              <p
-                aria-label="Tapadoo mail"
-                className="mx-4"
-                dangerouslySetInnerHTML={{
-                  __html: tapadoo.contact.mail,
-                }}
-              />
+              <a className="" href={`mailto:${tapadoo.contact.mail}`}>
+                <p
+                  aria-label="Tapadoo mail"
+                  className="mx-4"
+                  dangerouslySetInnerHTML={{
+                    __html: tapadoo.contact.mail,
+                  }}
+                />
+              </a>
             </div>
-            <div className="flex my-4">
+            <div className="flex my-4 underline text-primary opacity-80">
               <svg
                 width="24"
                 height="24"
@@ -95,13 +99,16 @@ function Contact() {
                   fill="currentColor"
                 />
               </svg>
-              <p
-                aria-label="Tapadoo location"
-                className="mx-4"
-                dangerouslySetInnerHTML={{
-                  __html: tapadoo.contact.location,
-                }}
-              />
+
+              <a className="" href={`${tapadoo.contact.locationURL}`}>
+                <p
+                  aria-label="Tapadoo location"
+                  className="mx-4"
+                  dangerouslySetInnerHTML={{
+                    __html: tapadoo.contact.location,
+                  }}
+                />
+              </a>
             </div>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 h-full">
