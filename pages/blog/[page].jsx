@@ -6,7 +6,12 @@ import rightArrow from '../../public/img/assets/double-right-arrow.png.png';
 import matter from 'gray-matter';
 
 import { Layout } from '../../components/layout/Layout';
-import { getFileData, getPostsFiles, sortByDate } from '../../utils/posts';
+import {
+  formatDate,
+  getFileData,
+  getPostsFiles,
+  sortByDate,
+} from '../../utils/posts';
 import siteData from '../../site-data.json';
 import { useRouter } from 'next/router';
 
@@ -177,10 +182,15 @@ export const getStaticProps = async ({ params: { page } }) => {
     Array(Math.ceil(postsNames.length / siteData.blog.pageSize)).keys()
   ).map((i) => ++i);
 
+  const postsFormated = posts
+    .sort(sortByDate)
+    .slice(paginator.current, paginator.top)
+    .map((post) => ({ ...post, date: formatDate(post.date) }));
+
   return {
     props: {
       sitePages,
-      posts: posts.sort(sortByDate).slice(paginator.current, paginator.top),
+      posts: postsFormated,
       featured: {
         post:
           posts.find(

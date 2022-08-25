@@ -20,6 +20,12 @@ export function getFileData(filename) {
   }
 }
 
+export function formatDate(postDate) {
+  const date = new Date(postDate);
+  console.log(date);
+  return `${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`;
+}
+
 export function sortByDate(a, b) {
   return new Date(b.date) - new Date(a.date);
 }
