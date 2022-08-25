@@ -26,7 +26,7 @@ function AppItem({ app }) {
   return (
     <div
       id={`app-${app.name}`}
-      className={` carousel-item  flex-col md:flex-row w-4/5 my-8  shadow-xl rounded-xl  min-h-[500px] mx-auto md:mx-[2vw] p-8 bg-white justify-between  `}
+      className={` carousel-item  flex-col md:flex-row w-4/5 my-8 gap-10  shadow-xl rounded-xl  min-h-[500px] mx-auto md:mx-[2vw] p-8 bg-white justify-between  `}
     >
       <div className="w-full md:text-left text-center  lg:w-1/3">
         <h2
