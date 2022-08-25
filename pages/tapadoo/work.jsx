@@ -9,13 +9,12 @@ const workSvg = require('../../public/img/assets/work2-svg.svg');
 function Work() {
   return (
     <>
-      <div className="max-w-[300px] md:max-w-[400px] h-[40vh] md:h-[50vh] lg:h-[70vh] lg:max-w-[600px] w-full   absolute right-0 -top-20 md:top-[5vh] z-[-1] opacity-80">
-        <Image
-          src={WorkTiles.default.src}
-          layout="fill"
-          alt="Tapadoo companies that we've work with"
-        />
-      </div>
+      <img
+        src={WorkTiles.default.src}
+        layout="fill"
+        alt="Tapadoo companies that we've work with"
+        className="max-w-[300px] md:max-w-[400px] h-[40vh] md:h-[50vh] lg:h-[70vh] lg:max-w-[600px] w-full   absolute right-0 -top-20 md:top-[5vh] z-[-1] opacity-80"
+      />
       <img
         src={workSvg.default.src}
         alt="background shape"
