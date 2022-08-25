@@ -10,7 +10,7 @@ function Work() {
     <>
       <img
         src={WorkTiles.default.src}
-        className=" max-w-[600px] w-full   absolute right-0 -top-20 lg:top-[5vh] z-10"
+        className=" max-w-[300px] md:max-w-[400px] lg:max-w-[600px] w-full   absolute right-0 -top-20 md:top-[5vh] z-[-1] opacity-80"
         alt="Tapadoo companies that we've work with"
       />
       <img
@@ -18,7 +18,7 @@ function Work() {
         alt="background shape"
         className="absolute  h-screen md:bottom-0  right-0 z-[-1] max-w-lg"
       />
-      <div className="hero min-h-[80vh] mt-[10vh] md:mt-0">
+      <div className="hero min-h-[80vh] mt-[10vh] md:mt-0 place-items-end lg:place-items-center">
         <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">
           <div></div>
           <div className="max-w-2xl">

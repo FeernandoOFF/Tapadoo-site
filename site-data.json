@@ -122,25 +122,25 @@
     "successCases": {
       "projects": [
         {
-          "name": "App 1",
-          "client": "Coca cola",
+          "name": "Prepay Power",
+          "client": "Prepay Power",
           "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione eos, illum minus maxime soluta magni voluptatem dicta tenetur accusamus architecto?",
-          "tags": ["FinTech", "IOS"],
+          "tags": ["Android", "IOS"],
           "images": [
-            "https://placeimg.com/200/150/arch",
-            "https://placeimg.com/200/150/arch",
-            "https://placeimg.com/200/150/arch"
+            "/img/assets/apps/PPP1.png",
+            "/img/assets/apps/PPP2.png",
+            "/img/assets/apps/PPP3.png"
           ]
         },
         {
-          "name": "App 2",
-          "client": "Coca cola",
+          "name": "Parking Tag",
+          "client": "Parking tag",
           "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione eos, illum minus maxime soluta magni voluptatem dicta tenetur accusamus architecto?",
-          "tags": ["FinTech", "IOS"],
+          "tags": ["Android", "IOS"],
           "images": [
-            "https://placeimg.com/200/150/arch",
-            "https://placeimg.com/200/150/arch",
-            "https://placeimg.com/200/150/arch"
+            "/img/assets/apps/PT1.png",
+            "/img/assets/apps/PT2.png",
+            "/img/assets/apps/PT3.png"
           ]
         },
         {

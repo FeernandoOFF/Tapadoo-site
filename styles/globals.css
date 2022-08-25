@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    font-family: Montserrat, system-ui, sans-serif;
+  }
+}
+
 @layer components {
   .app-container {
     @apply p-4 max-w-7xl mx-auto;
