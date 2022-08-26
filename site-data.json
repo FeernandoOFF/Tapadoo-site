@@ -9,35 +9,72 @@
       "paragraph": "We are a team of App Development Specialists.  <br /> <br /> Founded in 2009, shortly after the release of the iPhone SDK, Tapadoo was created to focus on mobile app development. This is a focus that remains to this day.  <br /> <br /> We develop for iOS and Android, including production of back end systems to support these apps. <br /> <br /> The team consists of Designers, Developers, Project Managers and QA Specialists. We value long-term customer relationships; we&lsquo;ve worked with most of our customers for many years. Each of these started with a single project.",
       "team": [
         {
-          "label": "Dermot",
-          "image": "https://picsum.photos/200",
+          "label": "Dermot Daly",
+          "image": "/img/team/dermot.webp",
           "charge": "The chase Master",
           "twitter": "@dermdaly"
         },
         {
           "label": "Peter Macmahon",
-          "image": "https://picsum.photos/200",
+          "image": "/img/team/peter.webp",
           "charge": "Senior Project Manager"
         },
         {
-          "label": "Eddie Martin",
-          "image": "https://picsum.photos/200",
-          "charge": "The cyclist "
+          "label": "Orla Fagan",
+          "image": "/img/team/orla.webp",
+          "charge": "UI/UX Design Lead"
         },
+        {
+          "label": "Jason Connery",
+          "image": "/img/team/jason.webp",
+          "charge": "Lead iOS Specialist"
+        },
+        {
+          "label": "Elliot Tormey",
+          "image": "/img/team/elliot.webp",
+          "charge": "Lead Android Specialist"
+        },
+        {
+          "label": "Alex Scanlan",
+          "image": "/img/team/alex.webp",
+          "charge": "iOS Specialist"
+        },
+
         {
           "label": "John Keyes",
-          "image": "https://picsum.photos/200",
-          "charge": "The code master"
+          "image": "/img/team/john.webp",
+          "charge": "Server Side Specialist"
         },
         {
-          "label": "Erencan Cabuk",
-          "image": "https://picsum.photos/200",
-          "charge": "The push up king"
+          "label": "Rita Aracri",
+          "image": "/img/team/Rita.webp",
+          "charge": "Quiality Assurance"
         },
         {
-          "label": "Conor Martin",
-          "image": "https://picsum.photos/200",
-          "charge": "The Fortunate Son"
+          "label": "Burhan Shakir",
+          "image": "/img/team/burhan.webp",
+          "charge": "Android Specialist"
+        },
+
+        {
+          "label": "Dumevi Cruces",
+          "image": "/img/team/Dumevi.webp",
+          "charge": "Android Specialist"
+        },
+        {
+          "label": "Maria Ortega",
+          "image": "/img/team/MariaO.webp",
+          "charge": "iOS Specialist"
+        },
+        {
+          "label": "Nimisha Parambathu",
+          "image": "/img/team/Nimisha.webp",
+          "charge": "iOS Specialist"
+        },
+        {
+          "label": "Nicky Patson",
+          "image": "/img/team/nicky.webp",
+          "charge": "iOS Specialist"
         }
       ]
     },
@@ -127,9 +164,9 @@
           "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione eos, illum minus maxime soluta magni voluptatem dicta tenetur accusamus architecto?",
           "tags": ["Android", "IOS"],
           "images": [
-            "/Tapadoo-site/img/assets/apps/PPP1.png",
-            "/Tapadoo-site/img/assets/apps/PPP2.png",
-            "/Tapadoo-site/img/assets/apps/PPP3.png"
+            "/img/assets/apps/PPP1.png",
+            "/img/assets/apps/PPP2.png",
+            "/img/assets/apps/PPP3.png"
           ]
         },
         {
@@ -138,9 +175,9 @@
           "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione eos, illum minus maxime soluta magni voluptatem dicta tenetur accusamus architecto?",
           "tags": ["Android", "IOS"],
           "images": [
-            "/Tapadoo-site/img/assets/apps/PT1.png",
-            "/Tapadoo-site/img/assets/apps/PT2.png",
-            "/Tapadoo-site/img/assets/apps/PT3.png"
+            "/img/assets/apps/PT1.png",
+            "/img/assets/apps/PT2.png",
+            "/img/assets/apps/PT3.png"
           ]
         },
         {

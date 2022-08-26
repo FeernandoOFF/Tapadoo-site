@@ -21,6 +21,9 @@ function BlogPost({ post }) {
       </figure>
       <section className="mb-10">
         <h1 className="app-title my-8">{post.title}</h1>
+        <h3>{new Date(post.date).getDate()} date </h3>
+        <h3>{new Date(post.date).getDay()} day</h3>
+        <h3>{post.date} </h3>
         {post.categories && (
           <div className="categories">
             <p className="my-4 text-lg font-medium">Tags : </p>
