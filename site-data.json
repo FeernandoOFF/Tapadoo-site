@@ -10,70 +10,71 @@
       "team": [
         {
           "label": "Dermot Daly",
-          "image": "/img/team/dermot.webp",
+          "image": "/Tapadoo-site/img/team/dermot.webp",
           "charge": "The chase Master",
           "twitter": "@dermdaly"
         },
         {
           "label": "Peter Macmahon",
-          "image": "/img/team/peter.webp",
+          "image": "/Tapadoo-site/img/team/peter.webp",
           "charge": "Senior Project Manager"
         },
         {
           "label": "Orla Fagan",
-          "image": "/img/team/orla.webp",
+          "image": "/Tapadoo-site/img/team/orla.webp",
           "charge": "UI/UX Design Lead"
         },
         {
           "label": "Jason Connery",
-          "image": "/img/team/jason.webp",
+          "image": "/Tapadoo-site/img/team/jason.webp",
           "charge": "Lead iOS Specialist"
         },
         {
           "label": "Elliot Tormey",
-          "image": "/img/team/elliot.webp",
+          "image": "/Tapadoo-site/img/team/elliot.webp",
           "charge": "Lead Android Specialist"
         },
         {
           "label": "Alex Scanlan",
-          "image": "/img/team/alex.webp",
+          "image": "/Tapadoo-site/img/team/alex.webp",
           "charge": "iOS Specialist"
         },
 
         {
           "label": "John Keyes",
-          "image": "/img/team/john.webp",
+          "image": "/Tapadoo-site/img/team/john.webp",
           "charge": "Server Side Specialist"
         },
         {
           "label": "Rita Aracri",
-          "image": "/img/team/Rita.webp",
+          "image": "/Tapadoo-site/img/team/Rita.webp",
           "charge": "Quiality Assurance"
         },
         {
           "label": "Burhan Shakir",
-          "image": "/img/team/burhan.webp",
+          "image": "/Tapadoo-site/img/team/burhan.webp",
           "charge": "Android Specialist"
         },
 
         {
           "label": "Dumevi Cruces",
-          "image": "/img/team/Dumevi.webp",
+          "image": "/Tapadoo-site/img/team/Dumevi.webp",
           "charge": "Android Specialist"
         },
         {
           "label": "Maria Ortega",
-          "image": "/img/team/MariaO.webp",
+          "image": "/Tapadoo-site/img/team/MariaO.webp",
           "charge": "iOS Specialist"
         },
+
         {
           "label": "Nimisha Parambathu",
-          "image": "/img/team/Nimisha.webp",
+          "image": "/Tapadoo-site/img/team/Nimisha.webp",
           "charge": "iOS Specialist"
         },
         {
           "label": "Nicky Patson",
-          "image": "/img/team/nicky.webp",
+          "image": "/Tapadoo-site/img/team/nicky.webp",
           "charge": "iOS Specialist"
         }
       ]
