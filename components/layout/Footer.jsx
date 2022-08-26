@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
         <div>
           <span className="footer-title">Links</span>
-          <Link href="/tapadoo/contact">
+          <Link href="/tapadoo/privacy-policy">
             <a className="link link-hover">Privacy Policy</a>
           </Link>
         </div>

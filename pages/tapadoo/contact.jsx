@@ -1,8 +1,8 @@
 import React from 'react';
 import { Layout } from '../../components/layout/Layout';
 
-import siteData from '../../site-data.json';
-const tapadoo = siteData.tapadoo;
+import sitedata from '../../site-data.json';
+const tapadoo = sitedata.tapadoo;
 
 function Contact() {
   return (
